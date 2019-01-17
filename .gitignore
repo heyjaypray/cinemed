@@ -1,0 +1,10 @@
+@Local
+node_modules/
+*.DS_Store
+static/
+build/
+.tmp/
+npm-debug.log
+webpack-assets.json
+webpack-stats.json
+doc

@@ -1,0 +1,10 @@
+ul.list-nicely li:before {
+  content:'';
+  display:inline-block;
+  height:1em;
+  width:1em;
+  background-image:url('../assets/flaticons/docs.svg');
+  background-size:contain;
+  background-repeat:no-repeat;
+  padding-left: 1em;
+}

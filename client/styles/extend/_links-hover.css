@@ -1,0 +1,73 @@
+/* LINK COLOR */
+
+/* Natural Colors */
+.hover-link--black a:hover        { color: var(--black); }
+.hover-link--near-black a:hover   { color: var(--near-black); }
+.hover-link--dark-gray a:hover    { color: var(--dark-gray); }
+.hover-link--mid-gray a:hover     { color: var(--mid-gray); }
+.hover-link--gray a:hover         { color: var(--gray); }
+.hover-link--silver a:hover       { color: var(--silver); }
+.hover-link--light-silver a:hover { color: var(--light-silver); }
+.hover-link--moon-gray a:hover    { color: var(--moon-gray); }
+.hover-link--light-gray a:hover   { color: var(--light-gray); }
+.hover-link--near-white a:hover   { color: var(--near-white); }
+.hover-link--white a:hover        { color: var(--white); }
+
+.hover-link--black-10 a:hover  { color: var(--black-10); }
+.hover-link--black-20 a:hover  { color: var(--black-20); }
+.hover-link--black-30 a:hover  { color: var(--black-30); }
+.hover-link--black-40 a:hover  { color: var(--black-40); }
+.hover-link--black-50 a:hover  { color: var(--black-50); }
+.hover-link--black-60 a:hover  { color: var(--black-60); }
+.hover-link--black-70 a:hover  { color: var(--black-70); }
+.hover-link--black-80 a:hover  { color: var(--black-80); }
+.hover-link--black-90 a:hover  { color: var(--black-90); }
+
+.hover-link--white-10 a:hover  { color: var(--white-10); }
+.hover-link--white-20 a:hover  { color: var(--white-20); }
+.hover-link--white-30 a:hover  { color: var(--white-30); }
+.hover-link--white-40 a:hover  { color: var(--white-40); }
+.hover-link--white-50 a:hover  { color: var(--white-50); }
+.hover-link--white-60 a:hover  { color: var(--white-60); }
+.hover-link--white-70 a:hover  { color: var(--white-70); }
+.hover-link--white-80 a:hover  { color: var(--white-80); }
+.hover-link--white-90 a:hover  { color: var(--white-90); }
+
+/* Custom Colors */
+.hover-link--scala-0 a:hover { color: var(--scala-0); }
+.hover-link--scala-1 a:hover { color: var(--scala-1); }
+.hover-link--scala-2 a:hover { color: var(--scala-2); }
+.hover-link--scala-3 a:hover { color: var(--scala-3); }
+.hover-link--scala-4 a:hover { color: var(--scala-4); }
+.hover-link--scala-5 a:hover { color: var(--scala-5); }
+.hover-link--scala-6 a:hover { color: var(--scala-6); }
+.hover-link--scala-7 a:hover { color: var(--scala-7); }
+.hover-link--scala-8 a:hover { color: var(--scala-8); }
+.hover-link--scala-9 a:hover { color: var(--scala-9); }
+
+/* Colors */
+.hover-link--dark-red a:hover      { color: var(--dark-red); }
+.hover-link--red a:hover           { color: var(--red); }
+.hover-link--light-red a:hover     { color: var(--light-red); }
+.hover-link--orange a:hover        { color: var(--orange); }
+.hover-link--gold a:hover          { color: var(--gold); }
+.hover-link--yellow a:hover        { color: var(--yellow); }
+.hover-link--light-yellow a:hover  { color: var(--light-yellow); }
+.hover-link--purple a:hover        { color: var(--purple); }
+.hover-link--light-purple a:hover  { color: var(--light-purple); }
+.hover-link--dark-pink a:hover     { color: var(--dark-pink); }
+.hover-link--hot-pink a:hover      { color: var(--hot-pink); }
+.hover-link--pink a:hover          { color: var(--pink); }
+.hover-link--light-pink a:hover    { color: var(--light-pink); }
+.hover-link--dark-green a:hover    { color: var(--dark-green); }
+.hover-link--green a:hover         { color: var(--green); }
+.hover-link--light-green a:hover   { color: var(--light-green); }
+.hover-link--navy a:hover          { color: var(--navy); }
+.hover-link--dark-blue a:hover     { color: var(--dark-blue); }
+.hover-link--blue a:hover          { color: var(--blue); }
+.hover-link--light-blue a:hover    { color: var(--light-blue); }
+.hover-link--lightest-blue a:hover { color: var(--lightest-blue); }
+.hover-link--washed-blue a:hover   { color: var(--washed-blue); }
+.hover-link--washed-green a:hover  { color: var(--washed-green); }
+.hover-link--washed-yellow a:hover { color: var(--washed-yellow); }
+.hover-link--washed-red a:hover    { color: var(--washed-red); }

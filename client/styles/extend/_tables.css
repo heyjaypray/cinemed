@@ -1,0 +1,6 @@
+.striped--scala-4:nth-child(odd) { background-color: var(--scala-4); }
+.striped--scala-5:nth-child(odd) { background-color: var(--scala-5); }
+.striped--scala-6:nth-child(odd) { background-color: var(--scala-6); }
+.striped--scala-7:nth-child(odd) { background-color: var(--scala-7); }
+.striped--scala-8:nth-child(odd) { background-color: var(--scala-8); }
+.striped--scala-9:nth-child(odd) { background-color: var(--scala-9); }

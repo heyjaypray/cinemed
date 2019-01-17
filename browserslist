@@ -1,0 +1,11 @@
+# Supported browsers for Autoprefixer
+
+> 1%
+last 2 versions
+IE 10
+
+# For testing purpose
+# > 0.2%
+# Last 2 versions
+# Firefox ESR
+# not ie <= 9

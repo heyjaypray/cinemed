@@ -1,0 +1,69 @@
+[
+  {
+    "plan": "Starter",
+    "priceMonth": "$9",
+    "priceYear": "$99",
+    "details": "great for personal use",
+    "link": "/signup",
+    "featured": [
+      "10 GB Storage",
+      "1 Email",
+      "1 Domain"
+    ],
+    "features": [
+      { "title": "Dashboard", "active": "true" },
+      { "title": "Analytics", "active": "false" },
+      { "title": "Data exports", "active": "false" },
+      { "title": "Social media", "active": "false" },
+      { "title": "History analysis", "active": "false" },
+      { "title": "Automated reports", "active": "false" },
+      { "title": "API access", "active": "false" },
+      { "title": "Account management", "active": "false" }
+    ]
+  },
+  {
+    "plan": "Pro",
+    "priceMonth": "$29",
+    "priceYear": "$319",
+    "details": "mosth popular",
+    "link": "/signup",
+    "promote": true,
+    "featured": [
+      "100 GB Storage",
+      "50 Emails",
+      "20 Domains"
+    ],
+    "features": [
+      { "title": "Dashboard", "active": "true" },
+      { "title": "Analytics", "active": "true" },
+      { "title": "Data exports", "active": "true" },
+      { "title": "Social media", "active": "true" },
+      { "title": "History analysis", "active": "false" },
+      { "title": "Automated reports", "active": "false" },
+      { "title": "API access", "active": "false" },
+      { "title": "Account management", "active": "false" }
+    ]
+  },
+   {
+    "plan": "Agency",
+    "priceMonth": "$59",
+    "priceYear": "$649",
+    "details": "Great for teams and clients",
+    "link": "/signup",
+    "featured": [
+      "1,000 GB Storage",
+      "1,000 Emails",
+      "100 Domains"
+    ],
+    "features": [
+      { "title": "Dashboard", "active": "true" },
+      { "title": "Analytics", "active": "true" },
+      { "title": "Data exports", "active": "true" },
+      { "title": "Social media", "active": "true" },
+      { "title": "History analysis", "active": "true" },
+      { "title": "Automated reports", "active": "true" },
+      { "title": "API access", "active": "true" },
+      { "title": "Account management", "active": "true" }
+    ]
+  }
+]

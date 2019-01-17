@@ -1,0 +1,163 @@
+{
+  "name": "titan-business-static",
+  "version": "0.1.1",
+  "description": "Build fast static sites with React & CSS Modules.",
+  "author": "themebiotic",
+  "url": "http://business.titan.themebiotic.com",
+  "private": true,
+  "scripts": {
+    "start:dev": "babel-node ./tools/dev_server.js",
+    "start": "npm run start:dev",
+    "test": "jest",
+    "clean": "rimraf build",
+    "build:bundle": "cross-env NODE_ENV=production webpack --config ./tools/webpack.prod.config.babel.js",
+    "build:static": "cross-env NODE_ENV=production babel-node ./tools/build_static_entry.js",
+    "build": "npm run clean && npm run build:bundle && npm run build:static",
+    "build:bundleunzip": "cross-env NODE_ENV=production webpack --config ./tools/webpack.prod.unzip.config.babel.js",
+    "build:unzip": "npm run clean && npm run build:bundleunzip && npm run build:static"
+  },
+  "babel": {
+    "plugins": [
+      "jsx-control-statements",
+      "transform-decorators-legacy"
+    ],
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ]
+  },
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+      "strict": [
+        2,
+        "never"
+      ],
+      "new-cap": 0,
+      "global-require": 0,
+      "react/require-extension": 0,
+      "react/jsx-filename-extension": [
+        1,
+        {
+          "extensions": [
+            ".js",
+            ".jsx"
+          ]
+        }
+      ]
+    }
+  },
+  "salad": {
+    "browsers": [
+      "> 1%",
+      "last 2 versions",
+      "IE 10"
+    ],
+    "features": {
+      "autoprefixer": {
+        "remove": true,
+        "browsers": [
+          "> 1%",
+          "last 2 versions",
+          "IE 10"
+        ]
+      },
+      "bem": {
+        "shortcuts": {
+          "component": "b",
+          "modifier": "m",
+          "descendent": "e"
+        },
+        "separators": {
+          "descendent": "__",
+          "modifier": "--"
+        }
+      }
+    }
+  },
+  "engines": {
+    "node": ">=4.4"
+  },
+  "dependencies": {
+    "autoprefixer": "^6.5.4",
+    "chance": "^1.0.4",
+    "classnames": "^2.2.5",
+    "html-loader": "^0.4.4",
+    "markdown-loader": "^2.0.0",
+    "rc-menu": "^5.0.7",
+    "rc-progress": "^2.0.6",
+    "react": "^15.3.2",
+    "react-countup": "^1.3.0",
+    "react-dom": "^15.3.2",
+    "react-fa": "^4.1.2",
+    "react-fastclick": "^2.1.2",
+    "react-google-maps": "^6.0.0",
+    "react-headroom": "^2.1.3",
+    "react-helmet": "^3.1.0",
+    "react-imageloader": "^2.1.0",
+    "react-images": "^0.5.2",
+    "react-markdown": "^2.4.4",
+    "react-matchmedia-connect": "^0.1.2",
+    "react-noscript": "^1.0.2",
+    "react-portal-tooltip": "^1.1.5",
+    "react-rotating-text": "^1.1.2",
+    "react-router": "^2.8.1",
+    "react-router-scroll": "^0.3.2",
+    "react-tabs": "^0.8.2",
+    "react-typeahead": "^2.0.0-alpha.5",
+    "tachyons": "^4.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-jest": "^18.0.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-jsx-control-statements": "^2.1.1",
+    "eslint-plugin-react": "^6.3.0",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "global": "^4.3.1",
+    "image-webpack-loader": "^3.2.0",
+    "imagemin": "^5.2.2",
+    "jest": "^18.1.0",
+    "json-loader": "^0.5.4",
+    "jsx-control-statements": "^3.1.5",
+    "lodash": "^4.17.2",
+    "mkdirp": "^0.5.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-loader": "^0.13.0",
+    "postcss-salad": "^1.0.6",
+    "raw-loader": "^0.5.1",
+    "react-test-renderer": "^15.4.1",
+    "redbox-react": "^1.3.1",
+    "rimraf": "^2.5.4",
+    "sitemap": "^1.8.2",
+    "style-loader": "^0.13.1",
+    "stylelint": "^7.3.1",
+    "stylelint-config-standard": "^13.0.2",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.14.0",
+    "webpack-combine-loaders": "^2.0.0",
+    "webpack-dashboard": "^0.2.1",
+    "webpack-dev-middleware": "^1.8.3",
+    "webpack-hot-middleware": "^2.12.2",
+    "webpack-isomorphic-tools": "^2.5.8",
+    "webpack-postcss-tools": "^1.1.2"
+  }
+}

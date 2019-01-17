@@ -1,0 +1,11 @@
+/* Chrome/Opera/Safari */
+::-webkit-input-placeholder {color: inherit; font-weight: inherit; opacity: 0.5; }
+
+/* Firefox 19+ */
+::-moz-placeholder { color: inherit; font-weight: inherit; opacity: 0.5; }
+
+ /* IE 10+ */
+:-ms-input-placeholder {color: inherit; font-weight: inherit; opacity: 0.5; }
+
+/* Firefox 18- */
+:-moz-placeholder {color: inherit; font-weight: inherit; opacity: 0.5; }

@@ -1,0 +1,8 @@
+{
+  "source": "./client",
+  "destination": "./doc",
+  "experimentalProposal": {
+    "classProperties": true,
+    "objectRestSpread": true
+  }
+}
