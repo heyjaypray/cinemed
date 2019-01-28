@@ -92,7 +92,7 @@ export default class HomePage extends React.Component {
         <Helmet { ...this.seoTags } />
         <Hero
           subtitle="ReactJS / CSSModule / Static HTML"
-          // toptitle={topTitle}
+          // toptitle="Balls"
           title="Build Your WebApp"
           footer={ footerButton }
           vh="min-vh-100-ns"

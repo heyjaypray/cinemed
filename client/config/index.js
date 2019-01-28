@@ -1,6 +1,6 @@
 module.exports = {
   site: {
-    name: "Business",
+    name: "CineMed",
     slogan: "",
     // logo: require('assets/logo.svg'),
     // logoLight: require('assets/logo-light.svg'),
