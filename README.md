@@ -1,177 +1,331 @@
-# Welcome to TITAN’s Documentation!
-
-### Thank you for purchasing the template!
-If you have any questions that are beyond the scope of this help file, Please feel free to ask via https://tawk.to/themebiotic
-Thank you.
-
-**TITAN** is not just a single template! We will continue to add templates regularly to this bundle. We will add many carefully arranged templates for different sectors and various needs. Please visit https://titan.themebiotic.com for all templates.
-
-## Folder structure
-
-| Folder     | Description                              |
-| ---------- | ---------------------------------------- |
-| **build**  | The codes of your site created by Webpack. |
-| **client** | All your client side codes.              |
-| **doc**    | Template api documentation created by esdocs |
-| **tools**  | Webpack scripts and tools                |
+# [Material Kit PRO React](https://demos.creative-tim.com/material-kit-pro-react) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20PRO%20is%20a%20Bootstrap%20UI%20Kit%20with%20a%20fresh,%20new%20design%20inspired%20by%20Google's%20Material%20Design%20%E2%9D%A4%EF%B8%8Fhttps%3A//demos.creative-tim.com/material-kit-pro/presentation.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23premium%20%20via%20%40CreativeTim)
 
 
+ ![version](https://img.shields.io/badge/version-1.2.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-kit-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-kit-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
-## Client Code hierarchy
+![Product Presentation Image](https://s3.amazonaws.com/creativetim_bucket/products/89/original/opt_mkp_react_thumbnail.jpg)
 
-| Folder         | Description                              |
-| -------------- | ---------------------------------------- |
-| **assets**     | It is the folder where all your assets used in temples are kept in their original state. _logo, images, files_ etc. |
-| **components** | Constant components used within the site. Like _Header, Footer, Menu_ etc. |
-| **config**     | Your page's basic settings like _Site name, url, seo metas, social media links_ etc. |
-| **layouts**    | The layouts used in the theme are defined here. |
-| **pages**      | All of your pages are kept in this folder. |
-| **styles**     | All styles used in the theme are defined here. |
-| **utils**      | The small tools used within the site are defined here. |
+**[Material Kit PRO React](https://demos.creative-tim.com/material-kit-pro-react/#/components)** is a beautiful resource built for Material Design. It was made over the powerful Material-UI. We used and have redesigned all components to make it look flat, minimalist and easy to use. We are proud of this new Material-UI skin and the possibilities for customisation.
+
+Using it is very simple and it will enable you to refresh you classic looking application. To get the desired effect you will also need to integrate ReactJS plugins that take a little bit more effort. In the end the result will be worth it.
+
+**[Material Kit PRO React](https://demos.creative-tim.com/material-kit-pro-react/#/components)** uses a framework built by our friend Olivier and his team - [Material-UI](https://material-ui.com/) and was created starting with [create-react-app](https://github.com/facebook/create-react-app), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+
+
+## Table of Contents
+
+
+* [Demo](#demo)
+* [Quick Start](#quick-start)
+* [Documentation](#documentation)
+* [File Structure](#file-structure)
+* [Browser Support](#browser-support)
+* [Resources](#resources)
+* [Reporting Issues](#reporting-issues)
+* [Technical Support or Questions](#technical-support-or-questions)
+* [Licensing](#licensing)
+* [Useful Links](#useful-links)
 
 
 
-## Page Routers
 
-| File path             | Description                              |
-| --------------------- | ---------------------------------------- |
-| /client/**routes.js** | All your pages and sub pages are defined by this router. Once you have created a new page, you need to define it in this router. |
+## Demo
 
-##### Sample Router usage
+- [Index Page](https://demos.creative-tim.com/material-kit-pro-react/#/components)
+- [Buttons Section](https://demos.creative-tim.com/material-kit-pro-react/#/components#buttons)
+- [Navigation Section](https://demos.creative-tim.com/material-kit-pro-react/#/components#navigation)
+- [Notifications Section](https://demos.creative-tim.com/material-kit-pro-react/#/components#notifications)
+- [User profile page](https://demos.creative-tim.com/material-kit-pro-react/#/profile-page)
+- [Landing page](https://demos.creative-tim.com/material-kit-pro-react/#/landing-page)
 
-```react
-import React from "react";
-import { Route, IndexRoute } from "react-router";
+[View More](https://demos.creative-tim.com/material-kit-pro-react/#/components).
 
-// Pages
-import { HomePage } from "./pages/Home/";
 
-// Components
-import { GlobalHeader } from "./components/Header/";
-import { GlobalFooter } from "./components/Footer/";
+## Quick start
 
-// Layout
-import { MainLayout } from "./layouts/";
+- Buy from [Creative Tim](https://www.creative-tim.com/product/material-kit-pro-react)
 
-// Default Layout
-const layout = {
-  header: GlobalHeader,
-  footer: GlobalFooter,
-};
 
- /* All Theme Routes
-  * @type {Object} All Theme routes
-  */
-const routes = (
-  <Route path="/" component={ MainLayout } >
-    <IndexRoute components={ { ...layout, main: HomePage } } />
-    <Route path="/home" components={ { ...layout, main: HomePage } } />
-  </Route>
-);
+## Documentation
+The documentation for the Material Kit PRO React is hosted at our [website](https://demos.creative-tim.com/material-kit-pro-react/#/documentation/tutorial).
+
+
+## File Structure
+Within the download you'll find the following directories and files:
+
+```
+material-kit-pro
+.
+├── CHANGELOG.md
+├── README.md
+├── package.json
+├── .env
+├── Documentation
+│   ├── assets
+│   │   ├── css
+│   │   ├── img
+│   │   │   └── faces
+│   │   └── js
+│   └── tutorial-components.html
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json
+└── src
+    ├── assets
+    │   ├── img
+    │   │   ├── arrow-left.cur
+    │   │   ├── arrow-right.cur
+    │   │   ├── assets-for-demo
+    │   │   │   ├── example-pages
+    │   │   │   ├── ourClients
+    │   │   │   ├── presentationViewSectionComponent
+    │   │   │   └── sections
+    │   │   │       └── imgs.jsx
+    │   │   ├── examples
+    │   │   ├── faces
+    │   │   ├── flags
+    │   │   └── sections
+    │   ├── jss
+    │   │   ├── material-kit-pro-react
+    │   │   │   ├── components
+    │   │   │   └── views
+    │   │   │       ├── aboutUsSections
+    │   │   │       ├── blogPostSections
+    │   │   │       ├── blogPostsSections
+    │   │   │       ├── componentsSections
+    │   │   │       ├── ecommerceSections
+    │   │   │       ├── landingPageSections
+    │   │   │       ├── presentationSections
+    │   │   │       ├── pricingSections
+    │   │   │       └── sectionsSections
+    │   │   └── material-kit-pro-react.jsx
+    │   └── scss
+    │       ├── core
+    │       │   ├── mixins
+    │       │   └── variables
+    │       ├── plugins
+    │       └── material-kit-pro-react.scss
+    ├── components
+    │   ├── Accordion
+    │   │   └── Accordion.jsx
+    │   ├── Badge
+    │   │   └── Badge.jsx
+    │   ├── Card
+    │   │   ├── Card.jsx
+    │   │   ├── CardAvatar.jsx
+    │   │   ├── CardBody.jsx
+    │   │   ├── CardFooter.jsx
+    │   │   └── CardHeader.jsx
+    │   ├── Clearfix
+    │   │   └── Clearfix.jsx
+    │   ├── CustomButtons
+    │   │   └── Button.jsx
+    │   ├── CustomDropdown
+    │   │   └── CustomDropdown.jsx
+    │   ├── CustomFileInput
+    │   │   └── CustomFileInput.jsx
+    │   ├── CustomInput
+    │   │   └── CustomInput.jsx
+    │   ├── CustomLinearProgress
+    │   │   └── CustomLinearProgress.jsx
+    │   ├── CustomTabs
+    │   │   └── CustomTabs.jsx
+    │   ├── CustomUpload
+    │   │   └── ImageUpload.jsx
+    │   ├── Footer
+    │   │   └── Footer.jsx
+    │   ├── Grid
+    │   │   ├── GridContainer.jsx
+    │   │   └── GridItem.jsx
+    │   ├── Header
+    │   │   ├── Header.jsx
+    │   │   └── HeaderLinks.jsx
+    │   ├── InfoArea
+    │   │   └── InfoArea.jsx
+    │   ├── Instruction
+    │   │   └── Instruction.jsx
+    │   ├── Media
+    │   │   └── Media.jsx
+    │   ├── NavPills
+    │   │   └── NavPills.jsx
+    │   ├── Pagination
+    │   │   └── Pagination.jsx
+    │   ├── Parallax
+    │   │   └── Parallax.jsx
+    │   ├── Snackbar
+    │   │   └── SnackbarContent.jsx
+    │   ├── Table
+    │   │   └── Table.jsx
+    │   └── Typography
+    │       ├── Danger.jsx
+    │       ├── Info.jsx
+    │       ├── Muted.jsx
+    │       ├── Primary.jsx
+    │       ├── Quote.jsx
+    │       ├── Rose.jsx
+    │       ├── Small.jsx
+    │       ├── Success.jsx
+    │       └── Warning.jsx
+    ├── index.js
+    ├── logo.svg
+    ├── routes
+    │   └── index.jsx
+    └── views
+        ├── AboutUsPage
+        │   ├── AboutUsPage.jsx
+        │   └── Sections
+        │       ├── SectionContact.jsx
+        │       ├── SectionDescription.jsx
+        │       ├── SectionOffice.jsx
+        │       ├── SectionServices.jsx
+        │       └── SectionTeam.jsx
+        ├── BlogPostPage
+        │   ├── BlogPostPage.jsx
+        │   └── Sections
+        │       ├── SectionBlogInfo.jsx
+        │       ├── SectionComments.jsx
+        │       ├── SectionSimilarStories.jsx
+        │       └── SectionText.jsx
+        ├── BlogPostsPage
+        │   ├── BlogPostsPage.jsx
+        │   └── Sections
+        │       ├── SectionImage.jsx
+        │       ├── SectionInterested.jsx
+        │       ├── SectionPills.jsx
+        │       └── SubscribeLine.jsx
+        ├── ComponentsPage
+        │   ├── ComponentsPage.jsx
+        │   └── Sections
+        │       ├── SectionBasics.jsx
+        │       ├── SectionCards.jsx
+        │       ├── SectionCarousel.jsx
+        │       ├── SectionContentAreas.jsx
+        │       ├── SectionFooter.jsx
+        │       ├── SectionJavascript.jsx
+        │       ├── SectionNavbars.jsx
+        │       ├── SectionNotifications.jsx
+        │       ├── SectionPills.jsx
+        │       ├── SectionPreFooter.jsx
+        │       ├── SectionTabs.jsx
+        │       └── SectionTypography.jsx
+        ├── ContactUsPage
+        │   └── ContactUsPage.jsx
+        ├── EcommercePage
+        │   ├── EcommercePage.jsx
+        │   └── Sections
+        │       ├── SectionBlog.jsx
+        │       ├── SectionLatestOffers.jsx
+        │       └── SectionProducts.jsx
+        ├── LandingPage
+        │   ├── LandingPage.jsx
+        │   └── Sections
+        │       ├── SectionProduct.jsx
+        │       ├── SectionTeam.jsx
+        │       └── SectionWork.jsx
+        ├── LoginPage
+        │   └── LoginPage.jsx
+        ├── PresentationPage
+        │   ├── PresentationPage.jsx
+        │   └── Sections
+        │       ├── SectionCards.jsx
+        │       ├── SectionComponents.jsx
+        │       ├── SectionContent.jsx
+        │       ├── SectionDescription.jsx
+        │       ├── SectionExamples.jsx
+        │       ├── SectionFreeDemo.jsx
+        │       ├── SectionOverview.jsx
+        │       ├── SectionPricing.jsx
+        │       └── SectionSections.jsx
+        ├── PricingPage
+        │   ├── PricingPage.jsx
+        │   └── Sections
+        │       ├── SectionFeatures.jsx
+        │       └── SectionPricing.jsx
+        ├── ProductPage
+        │   └── ProductPage.jsx
+        ├── ProfilePage
+        │   └── ProfilePage.jsx
+        ├── SectionsPage
+        │   ├── Sections
+        │   │   ├── SectionBlogs.jsx
+        │   │   ├── SectionContacts.jsx
+        │   │   ├── SectionFeatures.jsx
+        │   │   ├── SectionHeaders.jsx
+        │   │   ├── SectionPricing.jsx
+        │   │   ├── SectionProjects.jsx
+        │   │   ├── SectionTeams.jsx
+        │   │   └── SectionTestimonials.jsx
+        │   └── SectionsPage.jsx
+        ├── ShoppingCartPage
+        │   └── ShoppingCartPage.jsx
+        └── SignupPage
+            └── SignupPage.jsx
 ```
 
 
+## Browser Support
 
-## Requirements
+At present, we officially aim to support the last two versions of the following browsers:
 
-* **NodeJs** https://nodejs.org/
+<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
 
-## Commands
 
-Before we start developing the template, there are some modular that need to be installed. To install these requirements, first follow the steps below.
+## Resources
+- Demo: <https://demos.creative-tim.com/material-kit-pro-react/#/components>
+- Download Page: <https://www.creative-tim.com/product/material-kit-pro-react>
+- Documentation: <https://demos.creative-tim.com/material-kit-pro-react/#/documentation/tutorial>
+- License Agreement: <https://www.creative-tim.com/license>
+- Support: <https://www.creative-tim.com/contact-us>
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues)
++ [Material Kit Free React](https://demos.creative-tim.com/material-kit-react/#/)
++ [Material Kit Free](https://demos.creative-tim.com/material-kit/index.html)
++ [Material Dashboard Free React](https://demos.creative-tim.com/material-dashboard-react/#/dashboard)
++ [Material Dashboard Pro React](https://demos.creative-tim.com/material-dashboard-pro-react/#/dashboard)
++ [Material Dashboard Free HTML](https://demos.creative-tim.com/material-dashboard/examples/dashboard.html)
++ [Material Dashboard Pro HTML](https://demos.creative-tim.com/material-dashboard-pro/examples/dashboard.html)
++ [Material Dashboard Free Angular](https://demos.creative-tim.com/material-dashboard-angular2/dashboard)
++ [Material Dashboard Pro Angular](https://demos.creative-tim.com/material-dashboard-pro-angular2/dashboard)
 
-###### INSTALL REQUIREMENTS
-```sh
-$ npm install
-```
-if you're using **Yarn package manager** then run following command
 
-```sh
-$ yarn install
-```
+## Reporting Issues
 
-###### START DEVELOPMENT SERVER
+We use GitHub Issues as the official bug tracker for the Material Kit PRO React. Here are some advices for our users that want to report an issue:
 
-Once the requirements have been loaded, you can now run the development server with the following command.
+1. Make sure that you are using the latest version of the Material Kit PRO React. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/).
+2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
+3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
 
-```sh
-$ npm start
-# or
-$ yarn start
-```
 
-Once the development server starts running, you will see a message like the one below.
+## Technical Support or Questions
 
-```verilog
-Dev server listening at http://0.0.0.0:3000
-webpack built 55b4889cdef33b615fba in 5314m
-```
+If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
 
-You can now start editing your pages on http://localhost:3000
 
-###### BUILD YOUR CODES
-Once you have made the necessary edits and you now believe that your page is ready for publication, you can now deploy your code with the following command.
 
-```sh
-$ npm run build
-# or
-$ yarn build
-```
-This may take a little longer depending on the system.  When everything is done, you will find a fully working copy of the page in the **build folder** and an optimized version of your assets.  Now all you need to do is load the **build folder** to the server or wherever you want to use it. Since these codes do not require any server, they can also be used directly in places like github pages, dropbox or AWS s3 etc.
+## Licensing
 
-Also You can use the following command to print packages uncompressed.
+- Copyright 2018 Creative Tim (https://www.creative-tim.com/)
 
-```sh
-$ npm run build:unzip
-# or
-$ yarn build:unzip
-```
+- Creative Tim [license](https://www.creative-tim.com/license)
 
-###### TEST
-The Jest is ready for you to test your codes,  You can find a sample test code in the **utils folder**  ``/client/utils/utils.test.js``  Using this example you can write test codes according to your needs. If your test codes are ready, you can start the test by running the following code.
-```sh
-$ npm run test
-# or
-$ yarn test
-```
 
-## Source and Credits
 
-All the contents used in the template are provided from the following sources. You’ll also find related content license rights.
+## Useful Links
 
-#### Icons
-* **Fontawesome (v4.7.0)**
-  Created by Dave Gandy
-  License: Font Awesome licensed under SIL OFL 1.1 · Code licensed under MIT License · Documentation licensed under CC BY 3.0
-  http://fortawesome.github.io/Font-Awesome/icons/
+- [More products](https://www.creative-tim.com/bootstrap-themes) from Creative Tim
+- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- [Freebies](https://www.creative-tim.com/bootstrap-themes/free) from Creative Tim
+- [Affiliate Program](https://www.creative-tim.com/affiliates/new) (earn money)
 
-#### Images
+##### Social Media
 
-* **Pixabay ( Free photos )**
-  License: CC0 Public Domain ( https://creativecommons.org/choose/zero/ )
-  Free for commercial use / No attribution required
-  http://pixabay.com/
+Twitter: <https://twitter.com/CreativeTim>
 
-* **GraphicsFuel**
-  License: Free License
-  The freebie resources provided on GraphicsFuel.com are free for use in both personal and commercial projects including single or multiple projects such as app or themes.
-  http://www.graphicsfuel.com/terms/
+Facebook: <https://www.facebook.com/CreativeTim>
 
-* **Pixeden**
-  License: Free License
-  All our resources* are royalty free for use in both personal and commercial projects.
-  http://www.pixeden.com/license 
+Dribbble: <https://dribbble.com/creativetim>
 
-* **GraphicBurger**
-  License: All resources are royalty free for use in both personal and commercial projects ( http://graphicburger.com/license/ )
-  http://graphicburger.com/
+Google+: <https://plus.google.com/+CreativetimPage>
 
-* **Unsplash**
-  License: Free CC0 (do whatever you want) https://creativecommons.org/choose/zero/
-  http://unsplash.com/
-
-### Styles and UI
-Tachyons  is used as **CSS framework**. Use the link below to examine all the CSS codes and examples used in the theme. 
-
-###### TACHYONS
-- http://tachyons.io/docs/
+Instagram: <https://www.instagram.com/CreativeTimOfficial>
