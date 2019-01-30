@@ -32,6 +32,7 @@ function Features({ ...props }) {
   const { classes, ...rest } = props;
   return (
     <div className="cd-section" {...rest}>
+    <div className={classes.sectionBlank} id="blanksection" />
       <div className={classes.container}>
         {/* Feature 1 START */}
         <div className={classes.features1}>

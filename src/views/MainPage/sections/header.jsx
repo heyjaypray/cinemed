@@ -26,11 +26,12 @@ import office2 from "assets/img/examples/office2.jpg";
 import dg1 from "assets/img/dg1.jpg";
 import dg2 from "assets/img/dg2.jpg";
 import dg3 from "assets/img/dg3.jpg";
+import ParallaxComponent from 'react-parallax-component';
 
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
 // import Parallax from "components/Parallax/Parallax.jsx";
-import { Parallax } from "react-parallax";
+import { Parallax, ParallaxBanner } from "react-parallax";
 
 function HeaderCinemed({ ...props }) {
     const { classes, ...rest } = props;
@@ -45,29 +46,36 @@ function HeaderCinemed({ ...props }) {
     return (
         // we've set the className to cd-section so we can make smooth scroll to it
         <div className="cd-section" {...rest}>
-            {/* <div className={classes.sectionBlank} id="blanksection" /> */}
+            <div className={classes.sectionBlank} id="blanksection" />
 
             {/* HEADER 3 START */}
             <div>
 
+
                 <Carousel {...settings}>
                     {/* Carousel 1 START */}
+                    
                     <div>
 
                         <div
                             className={classes.pageHeader}
                             style={{ backgroundImage: `url("${dg1}")` }}
                         >
-                        
+
 
                             <div className={classes.container}>
+
                                 <GridContainer>
                                     <GridItem xs={12} sm={6} md={6} className={classNames(
                                         classes.mlAuto,
                                         classes.mrAuto,
                                         classes.textCenter
                                     )}>
+
+
                                         <h1 className={classes.title}>Products</h1>
+
+
                                         {/* <h4>
                       Dolce & Gabbana is a luxury Italian fashion house founded
                       in 1985 in Legnano by Italian designers Domenico Dolce and
@@ -89,9 +97,11 @@ function HeaderCinemed({ ...props }) {
                     </Button> */}
                                     </GridItem>
                                 </GridContainer>
+
                             </div>
                         </div>
                     </div>
+
                     {/* Carousel 1 END */}
                     {/* Carousel 2 START */}
                     <div>
