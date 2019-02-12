@@ -26,7 +26,6 @@ class MainPage extends Component {
                 >
                     <Features />
                 </Parallax>
-                <SectionTeams />
                 <Contact />
             </div>
         );

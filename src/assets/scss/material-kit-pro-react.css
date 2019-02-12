@@ -11,6 +11,9 @@
  * License Creative Tim (https://www.creative-tim.com/license)
  *
  * ========================================================= */
+.moveLeft {
+  margin-left: 60%; }
+
 .btn-file {
   position: relative;
   overflow: hidden;

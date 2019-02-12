@@ -34,7 +34,8 @@ var indexRoutes = [
     component: ShoppingCartPage
   },
   { path: "/signup-page", name: "SignupPage", component: SignupPage },
-  { path: "/", name: "MainPage", component: MainPage }
+  { path: "/", name: "MainPage", component: MainPage },
+  { path: "/presentation", name: "PresentationPage", component: PresentationPage }
 ];
 
 export default indexRoutes;

@@ -18,6 +18,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CustomInput from "components/CustomInput/CustomInput.jsx";
+import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
 
 import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.jsx";
 
@@ -76,34 +77,61 @@ function Navbar({ ...props }) {
                 </Button>
               </ListItem>
               <ListItem className={classes.listItem}>
-                <Button
-                  href="#pablo"
-                  className={classes.navLink}
-                  onClick={e => e.preventDefault()}
-                  color="transparent"
-                >
-                  Products
-                </Button>
+              <CustomDropdown
+                  buttonText="Products"
+                 
+                  buttonProps={{
+                    className: classes.navLink,
+                    color: "transparent"
+                  }}
+                  dropdownList={[
+                    "Action",
+                    "Another action",
+                    "Something else here",
+                    { divider: true },
+                    "Separated link",
+                    { divider: true },
+                    "One more separated link"
+                  ]}
+                />
               </ListItem>
               <ListItem className={classes.listItem}>
-                <Button
-                  href="#pablo"
-                  className={classes.navLink}
-                  onClick={e => e.preventDefault()}
-                  color="transparent"
-                >
-                  Services
-                </Button>
+                <CustomDropdown
+                  buttonText="Services"
+                 
+                  buttonProps={{
+                    className: classes.navLink,
+                    color: "transparent"
+                  }}
+                  dropdownList={[
+                    "Action",
+                    "Another action",
+                    "Something else here",
+                    { divider: true },
+                    "Separated link",
+                    { divider: true },
+                    "One more separated link"
+                  ]}
+                />
               </ListItem>
               <ListItem className={classes.listItem}>
-                <Button
-                  href="#pablo"
-                  className={classes.navLink}
-                  onClick={e => e.preventDefault()}
-                  color="transparent"
-                >
-                  Courses
-                </Button>
+              <CustomDropdown
+                  buttonText="Courses"
+                 
+                  buttonProps={{
+                    className: classes.navLink,
+                    color: "transparent"
+                  }}
+                  dropdownList={[
+                    "Action",
+                    "Another action",
+                    "Something else here",
+                    { divider: true },
+                    "Separated link",
+                    { divider: true },
+                    "One more separated link"
+                  ]}
+                />
               </ListItem>
               <ListItem className={classes.listItem}>
                 <Button
@@ -116,11 +144,11 @@ function Navbar({ ...props }) {
                 </Button>
               </ListItem>
             </List>
-            
+
           }
-          
+
         />
-        
+
       </div>
       {/* HEADER 3 END */}
     </div>
