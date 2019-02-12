@@ -26,6 +26,10 @@ import office2 from "assets/img/examples/office2.jpg";
 import dg1 from "assets/img/dg1.jpg";
 import dg2 from "assets/img/dg2.jpg";
 import dg3 from "assets/img/dg3.jpg";
+import cg1 from "assets/img/cinemed/cg1.jpg";
+import cg2 from "assets/img/cinemed/1.jpg";
+import cg3 from "assets/img/cinemed/2.jpg";
+
 import ParallaxComponent from 'react-parallax-component';
 
 
@@ -54,12 +58,12 @@ function HeaderCinemed({ ...props }) {
 
                 <Carousel {...settings}>
                     {/* Carousel 1 START */}
-                    
+
                     <div>
 
                         <div
                             className={classes.pageHeader}
-                            style={{ backgroundImage: `url("${dg1}")` }}
+                            style={{ backgroundImage: `url("${cg2}")` }}
                         >
 
 
@@ -107,7 +111,7 @@ function HeaderCinemed({ ...props }) {
                     <div>
                         <div
                             className={classes.pageHeader}
-                            style={{ backgroundImage: `url("${dg2}")` }}
+                            style={{ backgroundImage: `url("${cg1}")` }}
                         >
                             <div className={classes.container}>
                                 <GridContainer>
@@ -157,7 +161,7 @@ function HeaderCinemed({ ...props }) {
                     <div>
                         <div
                             className={classes.pageHeader}
-                            style={{ backgroundImage: `url("${dg3}")` }}
+                            style={{ backgroundImage: `url("${cg3}")` }}
                         >
                             <div className={classes.container}>
                                 <GridContainer>

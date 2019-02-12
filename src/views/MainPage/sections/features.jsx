@@ -43,23 +43,19 @@ function Features({ ...props }) {
               md={8}
               className={`${classes.mlAuto} ${classes.mrAuto}`}
             >
-              <h2 className={classes.title}>Why our product is the best</h2>
+              <h2 className={classes.title}>Who We Are</h2>
               <h5 className={classes.description}>
-                This is the paragraph where you can write more details about
-                your product. Keep you user engaged by providing meaningful
-                information. Remember that by this time, the user is curious,
-                otherwise he wouldn't scroll to get here. Add a button if you
-                want the user to see more.
+              Ciné-Med is a unique medical education company offering a robust blend of products and services to meet the educational needs of healthcare providers for over 30 years. Founded in 1980 with a specific focus on video-based education for surgeons and operating room nurses, we have since evolved to offer event management services, publishing services, marketing services and distribution of video and text based products as well as continuing education for physicians, nurses, and pharmacists.
               </h5>
             </GridItem>
           </GridContainer>
-          <GridContainer>
+          {/* <GridContainer>
             <GridItem xs={12} sm={4} md={4}>
               <InfoArea
                 vertical
                 icon={Chat}
-                title="Free Chat"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough"
+                title="Surgical Training"
+                description=" "
                 iconColor="info"
               />
             </GridItem>
@@ -67,8 +63,8 @@ function Features({ ...props }) {
               <InfoArea
                 vertical
                 icon={VerifiedUser}
-                title="Verified Users"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="Perioperative Nursing"
+                description=" "
                 iconColor="success"
               />
             </GridItem>
@@ -76,12 +72,12 @@ function Features({ ...props }) {
               <InfoArea
                 vertical
                 icon={Fingerprint}
-                title="Fingerprint"
-                description="Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough."
+                title="Mutlimedia Services"
+                description=" "
                 iconColor="danger"
               />
             </GridItem>
-          </GridContainer>
+          </GridContainer> */}
         </div>
         </div>
 
