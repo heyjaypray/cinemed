@@ -85,13 +85,7 @@ function Navbar({ ...props }) {
                     color: "transparent"
                   }}
                   dropdownList={[
-                    "Action",
-                    "Another action",
-                    "Something else here",
-                    { divider: true },
-                    "Separated link",
-                    { divider: true },
-                    "One more separated link"
+                    "Books",
                   ]}
                 />
               </ListItem>
@@ -104,34 +98,22 @@ function Navbar({ ...props }) {
                     color: "transparent"
                   }}
                   dropdownList={[
-                    "Action",
-                    "Another action",
-                    "Something else here",
-                    { divider: true },
-                    "Separated link",
-                    { divider: true },
-                    "One more separated link"
+                    "Surgery",
+                    "Nursing",
+                    "Education",
+                    "CME"
                   ]}
                 />
               </ListItem>
               <ListItem className={classes.listItem}>
-              <CustomDropdown
-                  buttonText="Courses"
-                 
-                  buttonProps={{
-                    className: classes.navLink,
-                    color: "transparent"
-                  }}
-                  dropdownList={[
-                    "Action",
-                    "Another action",
-                    "Something else here",
-                    { divider: true },
-                    "Separated link",
-                    { divider: true },
-                    "One more separated link"
-                  ]}
-                />
+                <Button
+                  href="#pablo"
+                  className={classes.navLink}
+                  onClick={e => e.preventDefault()}
+                  color="transparent"
+                >
+                  Courses
+                </Button>
               </ListItem>
               <ListItem className={classes.listItem}>
                 <Button

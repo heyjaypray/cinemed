@@ -46,6 +46,8 @@ import Carousel from "react-slick";
 import cg1 from "assets/img/cinemed/cg1.jpg";
 import cg2 from "assets/img/cinemed/1.jpg";
 import cg3 from "assets/img/cinemed/2.jpg";
+import Accordion from "components/Accordion/Accordion.jsx";
+import Collapse from './collapse'
 
 function Features({ ...props }) {
 
@@ -106,7 +108,14 @@ function Features({ ...props }) {
             <h5 className={classes.description}>
               Ciné-Med is a unique medical education company offering a robust blend of products and services to meet the educational needs of healthcare providers for over 30 years. Founded in 1980 with a specific focus on video-based education for surgeons and operating room nurses, we have since evolved to offer event management services, publishing services, marketing services and distribution of video and text based products as well as continuing education for physicians, nurses, and pharmacists.
               </h5>
+              
+              <Collapse />
           </GridItem>
+          
+                
+              
+
+         
         </GridContainer>
       </div>
 
