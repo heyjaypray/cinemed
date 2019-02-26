@@ -7,6 +7,7 @@ const style = {
   grid: {
     position: "relative",
     width: "100%",
+    height: "80%",
     minHeight: "1px",
     paddingRight: "0%",
     paddingLeft: "5px",

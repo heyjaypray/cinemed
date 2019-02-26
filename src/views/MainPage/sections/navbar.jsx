@@ -28,6 +28,7 @@ import dg1 from "assets/img/dg1.jpg";
 import dg2 from "assets/img/dg2.jpg";
 import dg3 from "assets/img/dg3.jpg";
 import cg3 from "assets/img/cinemed/2.jpg";
+import HeaderCinemed from './header';
 
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -77,24 +78,24 @@ function Navbar({ ...props }) {
                   About us
                 </Button>
               </ListItem>
-              <ListItem className={classes.listItem}>
-              <CustomDropdown
+              <ListItem className={classes.listItem} style={{ position: "initial" }}>
+                <CustomDropdown
                   buttonText="Products"
-                 
+                  style={{ width: "100%" }}
                   buttonProps={{
                     className: classes.navLink,
                     color: "transparent"
                   }}
                   dropdownList={[
-                    "Books",
-                    
+                    <HeaderCinemed />
+
                   ]}
                 />
               </ListItem>
               <ListItem className={classes.listItem}>
                 <CustomDropdown
                   buttonText="Services"
-                 
+
                   buttonProps={{
                     className: classes.navLink,
                     color: "transparent"
