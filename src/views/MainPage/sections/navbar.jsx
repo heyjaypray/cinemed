@@ -57,7 +57,7 @@ function Navbar({ ...props }) {
           }}
           color="white"
           links={
-            <List className={classes.list + " " + classes.mlAuto}>
+            <List className={classes.list + " " + classes.mlAuto } >
               <ListItem className={classes.listItem}>
                 <Button
                   href="#pablo"
@@ -78,16 +78,16 @@ function Navbar({ ...props }) {
                   About us
                 </Button>
               </ListItem>
-              <ListItem className={classes.listItem} style={{ position: "initial" }}>
+              <ListItem className={classes.listItem}>
                 <CustomDropdown
                   buttonText="Products"
-                  style={{ width: "100%" }}
+                  // style={{ width: "2000%", position: "initial", display: 'flex' }}
                   buttonProps={{
                     className: classes.navLink,
                     color: "transparent"
                   }}
                   dropdownList={[
-                    <HeaderCinemed />
+                    <HeaderCinemed style={{ width: "2000%", display: 'flex' }} />
 
                   ]}
                 />
