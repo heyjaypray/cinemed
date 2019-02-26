@@ -27,6 +27,7 @@ import office2 from "assets/img/examples/office2.jpg";
 import dg1 from "assets/img/dg1.jpg";
 import dg2 from "assets/img/dg2.jpg";
 import dg3 from "assets/img/dg3.jpg";
+import cg3 from "assets/img/cinemed/2.jpg";
 
 
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -86,6 +87,7 @@ function Navbar({ ...props }) {
                   }}
                   dropdownList={[
                     "Books",
+                    
                   ]}
                 />
               </ListItem>

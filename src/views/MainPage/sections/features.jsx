@@ -20,6 +20,7 @@ import AttachMoney from "@material-ui/icons/AttachMoney";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
+import GridItemCarousel from "components/Grid/GridItemCarousel.jsx";
 import InfoArea from "components/InfoArea/InfoArea.jsx";
 import {
   Row,
@@ -69,8 +70,8 @@ function Features({ ...props }) {
             <div className={classes.section} id="carousel">
               <div className={classes.container}>
                 <GridContainer>
-                  <GridItem xs={12} sm={10} md={8} className={classes.marginAuto}>
-                    <Card>
+                  <GridItemCarousel xs={12} sm={10} md={12} className={classes.marginAuto}>
+                    {/* <Card> */}
                       <Carousel {...settings}>
                         <div>
                           <img
@@ -97,8 +98,8 @@ function Features({ ...props }) {
                           
                         </div>
                       </Carousel>
-                    </Card>
-                  </GridItem>
+                    {/* </Card> */}
+                  </GridItemCarousel>
                 </GridContainer>
               </div>
             </div>
