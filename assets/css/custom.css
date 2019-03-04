@@ -5,3 +5,10 @@
 /*===================================================================================*/
 
 /* Insert your own styles in here! */
+
+h1 span {
+    color:white;
+    /* background-color: grey; */
+    text-shadow: 4px 3px #00529f;
+
+}
