@@ -135,7 +135,7 @@ const header = new Vue({
 
                             <ul class="dropdown-menu">
 
-                                <li><a href="slider-carousel.html">Upcoming Events</a></li>
+                                <li><a href="#">Upcoming Events</a></li>
 
 
                             </ul><!-- /.dropdown-menu -->
@@ -145,16 +145,16 @@ const header = new Vue({
 
                       
 
-                        <li class="dropdown yamm-fullwidth">
+                        <!-- <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu</a>
 
                             <ul class="dropdown-menu yamm-dropdown-menu">
                                   <li>
                                       <div class='megaMenu1'></div>
                                   </li>
-                              </ul><!-- /.yamm-dropdown-menu -->
+                              </ul>
                             
-                        </li><!-- /.yamm-fullwidth -->
+                        </li> -->
                        
 
                         <!-- ============================================================= MEGA MENU : END ============================================================= -->

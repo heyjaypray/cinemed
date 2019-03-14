@@ -93,8 +93,8 @@ const megaMenu1 = new Vue({
       <p>Equam conesti occum dolorest, quae venderes quistius, comnitatur sae
           dinam nonseculpa cum fugit is verciam.</p>
       <a href="#" class="btn">Read More</a>
-  </div><!-- /.col -->
+  </div>
 
-</div><!-- /.yamm-content -->    
+</div>
     `
 });
