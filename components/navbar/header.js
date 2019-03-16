@@ -62,38 +62,16 @@ const header = new Vue({
 
                         </li><!-- /.dropdown -->
 
-                        <li class="dropdown">
+                        <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
 
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Surgery</a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">ACS 2018 Video Sessions</a></li>
-                                        <li><a href="#">ACS Video Library</a></li>
-                                        <li><a href="#">ACS Online Video Library</a></li>
-                                        <li><a href="#">ACS Multimedia Atlas of Surgery</a></li>
-                                        <li><a href="#">SAGES Video Based Education</a></li>
-                                    </ul><!-- /.dropdown-menu -->
-                                </li><!-- /.dropdown-submenu -->
-
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nursing</a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">AORN Video Library</a></li>
-                                        <li><a href="#">AORN Online Video Library</a></li>
-                                        <li><a href="#">Perioperative Video Library Collections</a></li>
-                                        <li><a href="#">First Assistant Products</a></li>
-                                        <li><a href="#">RN Best Practice</a></li>
-                                    </ul><!-- /.dropdown-menu -->
-                                </li><!-- /.dropdown-submenu -->
-                                <li><a href="#">Online</a></li>
-                                <li><a href="#">Books</a></li>
-
-                            </ul><!-- /.dropdown-menu -->
-                        </li><!-- /.dropdown -->
+                            <ul class="dropdown-menu yamm-dropdown-menu">
+                                  <li>
+                                      <div class='productsVue'></div>
+                                  </li>
+                              </ul>
+                            
+                        </li>
 
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -144,13 +122,13 @@ const header = new Vue({
                         <!-- ============================================================= MEGA MENU ============================================================= -->
 
                       
-
-                        <!-- <li class="dropdown yamm-fullwidth">
+<!-- 
+                        <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega Menu</a>
 
                             <ul class="dropdown-menu yamm-dropdown-menu">
                                   <li>
-                                      <div class='megaMenu1'></div>
+                                      <div class='productsVue'></div>
                                   </li>
                               </ul>
                             
