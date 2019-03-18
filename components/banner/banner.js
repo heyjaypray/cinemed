@@ -23,7 +23,7 @@ const banner = new Vue({
                             <div class="container">
                                 <div class="caption vertical-center text-center">
                                     
-                                    <h1 class="fadeInDown-1 light-color"><span>Services</span></h1>
+                                    <a href="/services.html"><h1 class="fadeInDown-1 light-color"><span>Services</span></h1></a>
                                     <!-- <p class="fadeInDown-2 light-color">Create your online portfolio in minutes with the professionally and lovingly designed REEN website template. Customize your site with versatile and easy to use features.</p> -->
                                     <!-- <div class="fadeInDown-3">
                                         <a href="#" class="btn btn-large">Get started now</a>
