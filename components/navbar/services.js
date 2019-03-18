@@ -7,7 +7,7 @@ const servicesVue = new Vue({
         <h4>Clinical Education and Training</h4>
         <figure>
             <div class="icon-overlay icn-link">
-                <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
+                <a href="/clinical.html"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
                 <p></p>
@@ -20,7 +20,7 @@ const servicesVue = new Vue({
     <h4>Innovative Media Solutions</h4>
         <figure>
             <div class="icon-overlay icn-link">
-                <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
+                <a href="/media-solutions.html"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
                 <p></p>
@@ -33,7 +33,7 @@ const servicesVue = new Vue({
     <h4>Customer Engagement</h4>
         <figure>
             <div class="icon-overlay icn-link">
-                <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
+                <a href="/customer.html"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
                 <p></p>
