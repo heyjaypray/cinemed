@@ -39,7 +39,7 @@ const header = new Vue({
 
                     <!-- ============================================================= LOGO ============================================================= -->
 
-                    <a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed.gif" class="logo"
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo"
                             alt=""></a>
 
                     <!-- ============================================================= LOGO : END ============================================================= -->
