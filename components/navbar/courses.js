@@ -10,7 +10,7 @@ const coursesVue = new Vue({
                   <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
               </div>
               <figcaption>
-                  <p></p>
+                  <p>View Our Upcoming Events</p>
           
               </figcaption>
           </figure>
