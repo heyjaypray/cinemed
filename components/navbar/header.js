@@ -73,51 +73,37 @@ const header = new Vue({
                             
                         </li>
 
-                        <li class="dropdown">
+                        <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
 
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Clinical Education
-                                        and Training</a>
-
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Curriculum Design</a></li>
-                                        <li><a href="#">Planning, Development </a></li>
-                                        <li><a href="#">Web Based Solutions</a></li>
-                                        <li class="dropdown-submenu">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">CME</a>
-
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">CME Committee</a></li>
-
-                                            </ul><!-- /.dropdown-menu -->
-                                        </li><!-- /.dropdown-submenu -->
-                                        <li><a href="#">Innovative Media Solutions</a></li>
-                                        <li><a href="#">Customer Engagement</a></li>
-                                        <li><a href="#">Medical Publishing</a></li>
-
-                                    </ul><!-- /.dropdown-menu -->
-
-                                </li><!-- /.dropdown-submenu -->
-
-                                <li><a href="#">Innovative Media Solutions</a></li>
-                                <li><a href="#">Customer Engagement</a></li>
-                                <li><a href="#">Medical Publishing</a></li>
-
-                            </ul><!-- /.dropdown-menu -->
-                        </li><!-- /.dropdown -->
-
-                        <li class="dropdown">
+                            <ul class="dropdown-menu yamm-dropdown-menu">
+                                  <li>
+                                      <div class='servicesVue'></div>
+                                  </li>
+                              </ul>
+                            
+                        </li>
+                        <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
 
-                            <ul class="dropdown-menu">
+                            <ul class="dropdown-menu yamm-dropdown-menu">
+                                  <li>
+                                      <div class='coursesVue'></div>
+                                  </li>
+                              </ul>
+                            
+                        </li>
 
-                                <li><a href="#">Upcoming Events</a></li>
+                        <!-- <li class="dropdown yamm-fullwidth">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega</a>
 
-
-                            </ul><!-- /.dropdown-menu -->
-                        </li><!-- /.dropdown -->
+                            <ul class="dropdown-menu yamm-dropdown-menu">
+                                  <li>
+                                      <div class='megaMenu1'></div>
+                                  </li>
+                              </ul>
+                            
+                        </li> -->
 
                         <!-- ============================================================= MEGA MENU ============================================================= -->
 

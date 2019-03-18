@@ -1,55 +1,55 @@
-const products = new Vue({
-    el: ".productsVue",
-    template: `
+const servicesVue = new Vue({
+  el: ".servicesVue",
+  template: `
       <div class="yamm-content row">
     
     <div class="col-sm-6 col-lg-3 inner">
-        <h4>Surgery</h4>
+        <h4>Clinical Education and Training</h4>
         <figure>
             <div class="icon-overlay icn-link">
                 <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
-                <!-- <p>ACS Online</p> -->
+                <p></p>
         
             </figcaption>
         </figure>
     </div><!-- /.col -->
   
     <div class="col-sm-6 col-lg-3 inner">
-    <h4>Nursing</h4>
+    <h4>Innovative Media Solutions</h4>
         <figure>
             <div class="icon-overlay icn-link">
                 <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
-                <!-- <p>AORN / First Assistants Products</p> -->
+                <p></p>
     
             </figcaption>
         </figure>
     </div><!-- /.col -->
   
     <div class="col-sm-6 col-lg-3 inner">
-    <h4>Online</h4>
+    <h4>Customer Engagement</h4>
         <figure>
             <div class="icon-overlay icn-link">
                 <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
-                <!-- <p>RN Best Practices / Vein Global</p> -->
+                <p></p>
             
             </figcaption>
         </figure>
     </div><!-- /.col -->
   
     <div class="col-sm-6 col-lg-3 inner">
-    <h4>Books</h4>
+    <h4>Medical Publishing</h4>
         <figure>
             <div class="icon-overlay icn-link">
                 <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
-                <!-- <p>Books</p> -->
+                <p></p>
                 
             </figcaption>
         </figure>
@@ -57,5 +57,4 @@ const products = new Vue({
   
   </div>
       `
-  });
-  
+});
