@@ -1,19 +1,38 @@
 const customer = new Vue({
     el: ".customerEngagement",
-    template: `
+	template: `
+	<div>
+	<section id="hero">
+				<div id="owl-main" class="owl-carousel owl-one-item">
+					
+					<div class="item img-bg-center" style="background-image: url(assets/images/art/slider02.jpg);">
+						<div class="container">
+							<div class="caption vertical-center text-center">
+								
+								<h1 class="fadeInDown-1 light-color">Customer Engagement</h1>
+								
+								
+							</div><!-- /.caption -->
+						</div><!-- /.container -->
+					</div><!-- /.item -->
+					
+				</div><!-- /.owl-carousel -->
+			</section>
                 <section id="features">
 				<div class="container inner-top">
 					
 					<div class="row">
 						<div class="col-lg-8 col-md-9 mx-auto text-center">
 							<header>
-								<h1>Customer Engagement</h1>
+		
 								<p>With the rise in healthcare costs, today’s hospitals and physician offices are maintaining tighter control of their purchasing budgets. This, coupled with the myriad product options available in the marketplace, means companies need to do more to keep their customers engaged and educated on the value of their products.</p>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				
 					<div class="row inner-top-sm">
+
+					<div class="col-lg-1 inner-bottom-sm"></div>
 						
 						<div class="col-lg-3 inner-bottom-sm">
 							<!-- <h2>All in one</h2> -->
@@ -35,6 +54,7 @@ const customer = new Vue({
 				
 				</div><!-- /.container -->
 			</section>
+</div>
         `
   });
   

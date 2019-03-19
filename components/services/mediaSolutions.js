@@ -1,17 +1,28 @@
 const mediaSolutions = new Vue({
     el: ".mediaSolutions",
-    template: `
+	template: `
+	<div>
+
+	<section id="hero">
+				<div id="owl-main" class="owl-carousel owl-one-item">
+					
+					<div class="item img-bg-center" style="background-image: url(assets/images/art/slider02.jpg);">
+						<div class="container">
+							<div class="caption vertical-center text-center">
+								
+								<h1 class="fadeInDown-1 light-color">Innovative Media Solutions</h1>
+								<p class="fadeInDown-2 light-color">Ciné-Med is a state-of-the-art multimedia production company that produces educational content that is intuitive, focused, relevant, and timely.</p>
+								
+							</div><!-- /.caption -->
+						</div><!-- /.container -->
+					</div><!-- /.item -->
+					
+				</div><!-- /.owl-carousel -->
+			</section>
+
                 <section id="services">
 				<div class="container inner-top inner-bottom-sm">
-					
-					<div class="row">
-						<div class="col-lg-8 col-md-9 mx-auto text-center">
-							<header>
-								<h1>Innovative Media Solutions</h1>
-								<p>Ciné-Med is a state-of-the-art multimedia production company that produces educational content that is intuitive, focused, relevant, and timely.</p>
-							</header>
-						</div><!-- /.col -->
-					</div><!-- /.row -->
+				
 					
 					<div class="row inner-top-sm text-center">
 						
@@ -87,6 +98,7 @@ const mediaSolutions = new Vue({
 					
 				</div><!-- /.container -->
 			</section>
+</div>
         `
   });
   

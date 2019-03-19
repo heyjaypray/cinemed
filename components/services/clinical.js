@@ -1,17 +1,27 @@
 const clinicalVue = new Vue({
   el: ".clinicalVue",
   template: `
+  <div>
+			<section id="hero">
+				<div id="owl-main" class="owl-carousel owl-one-item">
+					
+					<div class="item img-bg-center" style="background-image: url(assets/images/art/slider02.jpg);">
+						<div class="container">
+							<div class="caption vertical-center text-center">
+								
+								<h1 class="fadeInDown-1 light-color">Clinical Education and Training</h1>
+
+								
+							</div><!-- /.caption -->
+						</div><!-- /.container -->
+					</div><!-- /.item -->
+					
+				</div><!-- /.owl-carousel -->
+			</section>
+
+
       		<section id="circle-tabs">
 			<div class="container inner">
-				
-				<div class="row">
-					<div class="col-lg-8 col-md-9 mx-auto text-center">
-						<header>
-							<h1>Clinical Education and Training</h1>
-							<!-- <p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p> -->
-						</header>
-					</div><!-- /.col -->
-				</div><!-- ./row -->
 				
 				<div class="row">
 					<div class="col-12 inner-top">
@@ -35,7 +45,7 @@ const clinicalVue = new Vue({
 										<div class="col-lg-5 col-md-6 inner-top-xs inner-left-xs">
 											<h3>Clinical Education</h3>
 											<p>In both live and distance learning formats, Ciné-Med excels at producing and deploying well-designed continuing education content for the healthcare community.</p>
-											<ul class="arrowed">
+											<ul class="circled">
 												<li>Curriculum design</li>
 												<li>Planning, development, and onsite management for live courses</li>
 												<li>Multimedia instruction</li>
@@ -73,7 +83,7 @@ const clinicalVue = new Vue({
 										<div class="col-lg-5 col-md-6 order-md-1 offset-lg-1 inner-top-xs inner-right-xs">
 											<h3>Event Solutions</h3>
 											<p>The Ciné-Med team manages educational events on a local, regional, and national level as well as through various online channels and strategic partnerships.</p>
-											<ul class="arrowed">
+											<ul class="circled">
 												<li>Event planning and development</li>
 												<li>Logistics management</li>
 												<li>Program Marketing</li>
@@ -95,7 +105,7 @@ const clinicalVue = new Vue({
 										<div class="col-lg-8 col-md-6 inner-top-xs inner-right-xs">
 											<h3>Planning, Development and Onsite Management for Live Courses</h3>
 											<p>Ciné-Med’s team manages educational events on a local, regional, and national level as well as through various online channels and strategic partnerships. Our services include event planning and development, logistics management, program marketing, strategic budget management, and outcomes measurement. </p>
-											<ul class="arrowed">
+											<ul class="circled">
 												<li><strong>Venue Management</strong> (selection, contracts, food/beverage, meeting rooms, audio/visual)</li>
 												<li><strong>Faculty Organization and Management</strong> (invitations, disclosures, presentations, honoraria)</li>
 												<li><strong>Meeting Coordination</strong> (budgets, agenda, registration site, abstract submission, exhibit sales, hotel/travel, on-site support)</li>
@@ -121,7 +131,7 @@ const clinicalVue = new Vue({
 										</div><!-- /.col -->
 										
 										<div class="col-lg-3 col-md-6 order-lg-3 float-md-left float-lg-none inner-top-xs">
-										<ul class="arrowed">
+										<ul class="circled">
 												<li>Online Training and Testing Modules</li>
 												<li>Competency Evaluation Tracking</li>
 												<li>Program Marketing</li>
@@ -135,7 +145,7 @@ const clinicalVue = new Vue({
 									<div class="col-lg-2 col-md-6 inner-top-xs inner-right-xs"></div>
 										<div class="col-lg-8 col-md-6 inner-top-xs inner-right-xs">
 											
-											<ul class="arrowed">
+											<ul class="circled">
 												<li><strong>Online Traning and Testing Modules</strong> (development of e-learning portals, curriculum design, video scripts, storyboards, post-tests; video shoots, editing, web programming, web hosting, database management, usage reports, accreditation)</li>
 												<li><strong>Video Production</strong> (product promotion, product instruction, surgeon testimonials, clinical skills training, customer education, patient information. Services include video shoots, post-production services, corporate/product branding, delivery platforms)</li>
 												<li><strong>Hands On Training</strong> </li>
@@ -160,5 +170,6 @@ const clinicalVue = new Vue({
 				
 			</div><!-- /.container -->
 		</section>
+</div>
       `
 });

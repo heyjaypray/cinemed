@@ -50,7 +50,7 @@ const header = new Vue({
                     <ul class="nav navbar-nav">
 
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                            <a href="/index.html" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 
 
                         </li><!-- /.dropdown -->
@@ -86,13 +86,6 @@ const header = new Vue({
                         </li>
                         <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
-
-                            <ul class="dropdown-menu yamm-dropdown-menu">
-                                  <li>
-                                      <div class='coursesVue'></div>
-                                  </li>
-                              </ul>
-                            
                         </li>
 
                         <!-- <li class="dropdown yamm-fullwidth">
