@@ -325,7 +325,7 @@ main header + * {
 	margin-top: 35px !important;
 }
 .inner {
-	padding-top: 120px;
+	padding-top: 10px;
 	padding-bottom: 120px;
 }
 .inner-md {

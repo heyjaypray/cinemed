@@ -18,7 +18,18 @@ h3 {
   border-bottom: 3px solid #ed174c;
 }
 
+h2 {
+  text-decoration: none;
+  border-bottom: 3px solid #ed174c;
+}
+
+
 strong {
   text-decoration: none;
   border-bottom: 3px solid #ed174c;
+}
+
+.upDo {
+  margin-top: 0
+  
 }
