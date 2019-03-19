@@ -7,7 +7,7 @@ const footer = new Vue({
 
 				<div class="col-lg-4 col-md-6 inner">
 					<h4>Who we are</h4>
-					<a href="index.html"><img class="logo img-intext" src="assets/images/cinemed/cinemed-vector.png" alt=""></a>
+					<a href="index.html"><img class="logo img-intext" src="assets/images/cinemed/cinemed-white.png" alt=""></a>
 					<p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum
 						quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
 					<a href="about.html" class="txt-btn">More about us</a>
