@@ -85,7 +85,7 @@ const header = new Vue({
                             
                         </li>
                         <li class="dropdown yamm-fullwidth">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
+                            <a href="/courses.html" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
                         </li>
 
                         <!-- <li class="dropdown yamm-fullwidth">
