@@ -6,15 +6,13 @@
 
 /* Insert your own styles in here! */
 
-h1 span {
-    color:white;
-    /* background-color: grey; */
-    
-    /* border-bottom: 3px solid #ed174c; */
-    text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-color: #ed174c;
 
+h1 span {
+  color: white;
+  /* background-color: grey; */
+  text-shadow: 4px 3px #00529f;
+
+  border-bottom: 3px solid #ed174c;
 }
 
 h3 {
@@ -33,6 +31,7 @@ h2 {
   text-decoration-style: solid;
   text-decoration-color: #ed174c;
 }
+
 
 
 
