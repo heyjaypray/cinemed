@@ -1,6 +1,6 @@
 const events = new Vue({
-    el: ".eventsVue",
-    template: `
+  el: ".eventsVue",
+  template: `
 <section id="pricing-tables">
 				<div class="container inner">
 					
@@ -15,234 +15,58 @@ const events = new Vue({
 					<div class="row pricing">
 						
 						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
+							<div class="card" style="width: 20rem;">
+								<img class="card-img-top" src="assets/images/cinemed/1.jpg" alt="Card image cap" style="height:50%">
+								<div class="card-body">
+									<center>
+									<h4 class="card-title">10th Annual Cherry Blossom Otolaryngology Updat</h4>
+									<p class="card-text">George Washington University Hospital</p>
+									<i class="icon-globe"></i> Washington D.C. <br>
+									<i class="icon-calendar"></i> March 29-30, 2019
+									<a href="#" class="btn btn-green">View Event Site</a>
+									</center>
+								</div>
+							</div>
+						</div>
+
+
 						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
+							<div class="card" style="width: 20rem;">
+								<img class="card-img-top" src="assets/images/cinemed/1.jpg" alt="Card image cap" style="height:50%">
+								<div class="card-body">
+									<center>
+									<h4 class="card-title">10th Annual Cherry Blossom Otolaryngology Updat</h4>
+									<p class="card-text">George Washington University Hospital</p>
+									<i class="icon-globe"></i> Washington D.C. <br>
+									<i class="icon-calendar"></i> March 29-30, 2019
+									<a href="#" class="btn btn-green">View Event Site</a>
+									</center>
+								</div>
+							</div>
+						</div>
+
 						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
+							<div class="card" style="width: 20rem;">
+								<img class="card-img-top" src="assets/images/cinemed/1.jpg" alt="Card image cap" style="height:50%">
+								<div class="card-body">
+									<center>
+									<h4 class="card-title">10th Annual Cherry Blossom Otolaryngology Updat</h4>
+									<p class="card-text">George Washington University Hospital</p>
+									<i class="icon-globe"></i> Washington D.C. <br>
+									<i class="icon-calendar"></i> March 29-30, 2019
+									<a href="#" class="btn btn-green">View Event Site</a>
+									</center>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					
 						
-                    </div><!-- /.row -->
-                    
-                    <div class="row pricing">
-						
-						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
-						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
-						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
-                    </div><!-- /.row -->
-                    
-                    <div class="row pricing">
-						
-						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
-						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
-						<div class="col-lg-4 col-md-6 inner-top-sm">
-							<div class="plan">
-								
-								<header>
-									<h4 style="color: white">10th Annual Cherry Blossom Otolaryngology Update</h4>
-									
-									<div class="price">
-										<img src="assets/images/cinemed/1.jpg" style="width:100%; height: 50%">
-									</div><!-- /.price -->
-									
-									<a href="#" class="btn">View Event Site</a>
-								</header>
-								
-								<ul class="features">
-									<li><i class="icon-window"></i> Facility: George Washington University Hospital</li>
-									<li><i class="icon-hdd"></i> City: Washington D.C.</li>
-									<li><i class="icon-switch"></i> Date: March 29-30, 2019</li>
-									<li><i class="icon-globe"></i> https://cine-med.com/cbo/</li>
-	
-								</ul><!-- /.features -->
-								
-							</div><!-- /.plan -->
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
 					
 				</div><!-- /.container -->
 			</section>
 
     `
-  });
-  
+});
