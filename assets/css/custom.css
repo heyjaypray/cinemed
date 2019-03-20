@@ -14,9 +14,9 @@ h1 {
   color: #00529f;
   /* border-bottom: 3px solid #ed174c; */
   font-size: 30px;
-  text-decoration-line: underline;
+   /* text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-color: #ed174c;
+  text-decoration-color: #ed174c;  */
 }
 
 h1 span {
@@ -24,7 +24,7 @@ h1 span {
   /* background-color: grey; */
   text-shadow: 4px 3px #00529f;
 
-  /* border-bottom: 3px solid #ed174c; */
+  border-bottom: 3px solid #ed174c;
 }
 
 h3 {
