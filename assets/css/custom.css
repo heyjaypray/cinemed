@@ -9,20 +9,29 @@
 h1 span {
     color:white;
     /* background-color: grey; */
-    text-shadow: 4px 3px #00529f;
-    border-bottom: 3px solid #ed174c;
+    
+    /* border-bottom: 3px solid #ed174c; */
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #ed174c;
 
 }
 
 h3 {
   text-decoration: none;
-  border-bottom: 3px solid #ed174c;
-  font-size: 30px
+  /* border-bottom: 3px solid #ed174c; */
+  font-size: 30px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #ed174c;
 }
 
 h2 {
   text-decoration: none;
-  border-bottom: 3px solid #ed174c;
+  /* border-bottom: 3px solid #ed174c; */
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: #ed174c;
 }
 
 
