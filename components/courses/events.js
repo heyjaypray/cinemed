@@ -7,7 +7,7 @@ const events = new Vue({
 					<div class="row">
 						<div class="col-lg-8 col-md-9 mx-auto text-center">
 							<header>
-								<h1>Courses</h1>
+								<h1>CineMed Upcoming Conferences</h1>
 							</header>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
