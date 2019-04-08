@@ -23,7 +23,7 @@ const header = new Vue({
 
                 <!-- ============================================================= LOGO MOBILE ============================================================= -->
 
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="logo" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo" alt=""></a>
 
                 <!-- ============================================================= LOGO MOBILE : END ============================================================= -->
 
