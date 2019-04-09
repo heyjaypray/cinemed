@@ -3,33 +3,33 @@ Vue.component("header-component", {
       `<header>
 			<div class="navbar">
 				
-				<div class="navbar-header">
-					<div class="container">
-						
-						<ul class="info">
-							<li><a href="#"><i class="icon-mail-1 contact"></i> info@reen.com</a></li>
-							<li><i class="icon-mobile contact"></i> +00 (123) 456 78 90</li>
-						</ul><!-- /.info -->
-						
-						<ul class="social">
-							<li><a href="#"><i class="icon-s-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-s-gplus"></i></a></li>
-							<li><a href="#"><i class="icon-s-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-s-pinterest"></i></a></li>
-							<li><a href="#"><i class="icon-s-behance"></i></a></li>
-							<li><a href="#"><i class="icon-s-dribbble"></i></a></li>
-						</ul><!-- /.social -->
-						
-						<!-- ============================================================= LOGO MOBILE ============================================================= -->
-						
-						<a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="logo" alt=""></a>
-						
-						<!-- ============================================================= LOGO MOBILE : END ============================================================= -->
-						
-						<a class="navbar-toggler btn responsive-menu float-right" data-toggle="collapse" data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
-						
-					</div><!-- /.container -->
-				</div><!-- /.navbar-header -->
+      <div class="navbar-header">
+      <div class="container">
+
+          <ul class="info">
+              <li><a href="#"><i class="icon-mail-1 contact"></i>info@cine-med.com</a></li>
+              <li><i class="icon-mobile contact"></i> +00 (123) 456 78 90</li>
+          </ul>
+
+          <ul class="social">
+              <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-s-gplus"></i></a></li>
+              <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-s-pinterest"></i></a></li>
+              <li><a href="#"><i class="icon-s-behance"></i></a></li>
+              <li><a href="#"><i class="icon-s-dribbble"></i></a></li>
+          </ul>
+
+         
+
+          <a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo" alt=""></a>
+
+          
+          <a class="navbar-toggler btn responsive-menu float-right" data-toggle="collapse"
+              data-target=".navbar-collapse"><i class='icon-menu-1'></i></a>
+
+      </div>
+  </div>
 				
 				<div class="yamm">
 					<div class="navbar-collapse collapse">
@@ -37,7 +37,8 @@ Vue.component("header-component", {
 							
 							<!-- ============================================================= LOGO ============================================================= -->
 							
-							<a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" class="logo" alt=""></a>
+							<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo"
+                            alt=""></a>
 							
 							<!-- ============================================================= LOGO : END ============================================================= -->
 							
