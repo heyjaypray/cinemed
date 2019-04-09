@@ -7,7 +7,7 @@ const products = new Vue({
         <h4>Surgery</h4>
         <figure>
             <div class="icon-overlay icn-link">
-                <a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
+                <a href="/surgery.html"><img src="assets/images/art/work01.jpg" alt=""></a>
             </div>
             <figcaption>
                 <!-- <p>ACS Online</p> -->
