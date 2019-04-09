@@ -191,7 +191,7 @@ const surgery = new Vue({
 										<span class="period">/ Mo</span>
 									</div><!-- /.price -->
 									
-									<a href="#" class="btn">Change to this plan</a>
+									<a href="#" class="btn">Buy Now</a>
 								</header>
 								
 								<ul class="features">
@@ -217,7 +217,7 @@ const surgery = new Vue({
 										<span class="period">/ Mo</span>
 									</div><!-- /.price -->
 									
-									<a href="#" class="btn">Change to this plan</a>
+									<a href="#" class="btn">Buy Now</a>
 								</header>
 								
 								<ul class="features">
@@ -243,7 +243,7 @@ const surgery = new Vue({
 										<span class="period">/ Mo</span>
 									</div><!-- /.price -->
 									
-									<a href="#" class="btn">Change to this plan</a>
+									<a href="#" class="btn">Buy Now</a>
 								</header>
 								
 								<ul class="features">
@@ -269,7 +269,7 @@ const surgery = new Vue({
 										<span class="period">/ Mo</span>
 									</div><!-- /.price -->
 									
-									<a href="#" class="btn">Change to this plan</a>
+									<a href="#" class="btn">Buy Now</a>
 								</header>
 								
 								<ul class="features">
@@ -293,50 +293,54 @@ const surgery = new Vue({
 			
 			<!-- ============================================================= SECTION – FAQ ============================================================= -->
 			
-			<section id="faq" class="light-bg">
-				<div class="container inner">
-					
-					<div class="row">
-						<div class="col-lg-8 col-md-9 mx-auto text-center">
-							<header>
-								<h1>Questions?</h1>
-								<p>Magnis modipsae que voloratati andigen daepeditem quiate re porem aut labor. Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
-							</header>
-						</div><!-- /.col -->
-					</div><!-- /.row -->
-					
-					<div class="row">
-					
-						<div class="col-md-6 inner-right-sm inner-top-sm">
+			<section id="testimonials" class="light-bg img-bg-softer" style="background-image: url(assets/images/art/pattern-background01.jpg);">
+			<div class="container inner">
+				
+				<div class="row">
+					<div class="col-lg-5 col-md-8 mx-auto text-center">
+						<header>
+							<h1>What clients are saying about us</h1>
+						</header>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+				
+				<div class="row">
+					<div class="col-lg-8 col-md-9 mx-auto text-center">
+						<div id="owl-testimonials" class="owl-carousel owl-outer-nav owl-ui-md">
 							
-							<h3>How long are the contracts?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<div class="item">
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed arcu eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices, elit et tempus mollis, velit ipsum rutrum nunc, id auctor tellus dolor sed enim.</p>
+									<footer>
+										<cite>Steve Gates</cite>
+									</footer>
+								</blockquote>
+							</div><!-- /.item -->
 							
-							<h3>Can i switch plans later?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<div class="item">
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed arcu eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices, elit et tempus mollis, velit ipsum rutrum nunc, id auctor tellus dolor sed enim.</p>
+									<footer>
+										<cite>Amber Jones</cite>
+									</footer>
+								</blockquote>
+							</div><!-- /.item -->
 							
-							<h3>What support options do i have?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
+							<div class="item">
+								<blockquote>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed arcu eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultrices, elit et tempus mollis, velit ipsum rutrum nunc, id auctor tellus dolor sed enim.</p>
+									<footer>
+										<cite>Bill Jobs</cite>
+									</footer>
+								</blockquote>
+							</div><!-- /.item -->
 							
-						</div><!-- /.col -->
-					
-						<div class="col-md-6 inner-left-sm inner-top-sm">
-							
-							<h3>Is there a setup fee?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
-							
-							<h3>What types of payment methods are accepted?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
-							
-							<h3>Can i cancel my account at any time?</h3>
-							<p>Conecus iure posae volor remped modis aut accabora incim resto explabo eictemperum quiae sitiorem volor remped modis volor.</p>
-							
-						</div><!-- /.col -->
-						
-					</div><!-- /.row -->
-					
-				</div><!-- /.container -->
-			</section>
+						</div><!-- /.owl-carousel -->
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+				
+			</div><!-- /.container -->
+		</section>
 			
 			<!-- ============================================================= SECTION – FAQ : END ============================================================= -->
 			
