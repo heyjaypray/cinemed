@@ -1,7 +1,6 @@
-const products = new Vue({
-    el: ".productsVue",
-    template: `
-      <div class="yamm-content row">
+Vue.component("products-component", {
+    template: 
+    `<div class="yamm-content row">
     
     <div class="col-sm-6 col-lg-3 inner">
         <h4>Surgery</h4>
@@ -55,7 +54,9 @@ const products = new Vue({
         </figure>
     </div>
   
-  </div>
-      `
-  });
-  
+  </div>`
+});
+
+new Vue({
+  el: ".productsVue"
+});

@@ -67,7 +67,9 @@ Vue.component("header-component", {
   
                               <ul class="dropdown-menu yamm-dropdown-menu">
                                     <li>
-                                        <div class='productsVue'></div>
+                                        <div class='productsVue'>
+                                            <products-component></products-component>
+                                        </div>
                                     </li>
                                 </ul>
                               
