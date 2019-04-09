@@ -88,6 +88,33 @@ const header = new Vue({
                             <a href="/courses.html" class="dropdown-toggle" data-toggle="dropdown">Courses</a>
                         </li>
 
+                        <li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+									
+									<ul class="dropdown-menu">
+										
+										
+										<li class="dropdown-submenu">
+											<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+											
+											<ul class="dropdown-menu">
+												<li><a href="#">Second Level</a></li>
+												<li><a href="#">Second Level</a></li>
+												
+												<li class="dropdown-submenu">
+													<a href="#" class="dropdown-toggle" data-toggle="dropdown">More</a>
+													
+													<ul class="dropdown-menu">
+														<li><a href="#">Third Level</a></li>
+														<li><a href="#">Third Level</a></li>
+													</ul><!-- /.dropdown-menu -->
+												</li><!-- /.dropdown-submenu -->
+											</ul><!-- /.dropdown-menu -->
+										</li><!-- /.dropdown-submenu -->
+										
+									</ul><!-- /.dropdown-menu -->
+								</li><!-- /.dropdown -->
+
                         <!-- <li class="dropdown yamm-fullwidth">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Mega</a>
 
