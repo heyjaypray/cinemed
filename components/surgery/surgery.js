@@ -36,21 +36,6 @@ const surgery = new Vue({
 						<div class="col">
 						<iframe width="480" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div><!-- /.col -->
-<!-- 
-
-						<div class="col">
-							<div class="row">
-							<img src="https://img.icons8.com/flat_round/64/000000/checkmark.png">
-							</div>
-							<div class="row">
-							<img src="https://img.icons8.com/flat_round/64/000000/checkmark.png">
-							</div>
-							<div class="row">
-							<img src="https://img.icons8.com/flat_round/64/000000/checkmark.png">
-							</div>
-							
-						</div> -->
-
 						
 						<div class="col-md-6">
 

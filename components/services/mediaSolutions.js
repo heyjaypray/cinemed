@@ -1,6 +1,6 @@
 const mediaSolutions = new Vue({
-    el: ".mediaSolutions",
-	template: `
+  el: ".mediaSolutions",
+  template: `
 	<div>
 
 	<section id="hero">
@@ -100,5 +100,4 @@ const mediaSolutions = new Vue({
 			</section>
 </div>
         `
-  });
-  
+});

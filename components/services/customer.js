@@ -1,6 +1,6 @@
 const customer = new Vue({
-    el: ".customerEngagement",
-	template: `
+  el: ".customerEngagement",
+  template: `
 	<div>
 	<section id="hero">
 				<div id="owl-main" class="owl-carousel owl-one-item">
@@ -56,5 +56,4 @@ const customer = new Vue({
 			</section>
 </div>
         `
-  });
-  
+});
