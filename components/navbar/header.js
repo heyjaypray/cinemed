@@ -1,8 +1,8 @@
 Vue.component("header-component", {});
 
 new Vue({
-el: ".headerVue",
-template: `<header>
+  el: ".headerVue",
+  template: `<header>
 	<div class="navbar">
 
 		<div class="navbar-header">
@@ -44,7 +44,7 @@ template: `<header>
 							alt=""></a>
 
 
-					<ul class="nav navbar-nav">
+					<ul class="nav navbar-nav ">
 
 						<li>
 							<a href="/index.html">Home</a>
@@ -185,9 +185,11 @@ template: `<header>
 
 						<li>
 							<a href="#">Contact</a>
-						</li>
+            </li>
+            
+            
 
-						<li class="dropdown searchbox">
+						<!-- <li class="dropdown searchbox">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
 
 							<div class="dropdown-menu dropdown-menu-right">
@@ -196,7 +198,9 @@ template: `<header>
 									<button type="submit" class="btn btn-submit icon-right-open"></button>
 								</form>
 							</div>
-						</li>
+            </li> -->
+            
+            <button type="button" class="btn btn-primary ml-5">Login</button>
 
 
 				</div>
