@@ -35,26 +35,16 @@ Vue.component("header-component", {
 					<div class="navbar-collapse collapse">
 						<div class="container">
 							
-							<!-- ============================================================= LOGO ============================================================= -->
+						
 							
-							<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo"
-                            alt=""></a>
+							<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo" alt=""></a>
 							
-							<!-- ============================================================= LOGO : END ============================================================= -->
-							
-							
-							<!-- ============================================================= MAIN NAVIGATION ============================================================= -->
-							
+
 							<ul class="nav navbar-nav">
 								
 								<li>
 									<a href="#">Home</a>
-								</li><!-- /.dropdown -->
-
-								<li>
-									<a href="#">About Us</a>
-								</li><!-- /.dropdown -->
-								
+								</li>							
 								
 								<li class="dropdown yamm-fullwidth">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
@@ -70,11 +60,11 @@ Vue.component("header-component", {
 															<a href="/surgery.html"><img src="assets/images/art/work01.jpg" alt=""></a>
 														</div>
 														<figcaption>
-															<!-- <p>ACS Online</p> -->
+															
 													
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 											  
 												<div class="col-sm-6 col-lg-3 inner">
 												<h4>Nursing</h4>
@@ -83,11 +73,11 @@ Vue.component("header-component", {
 															<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
 														</div>
 														<figcaption>
-															<!-- <p>AORN / First Assistants Products</p> -->
+															
 												
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 											  
 												<div class="col-sm-6 col-lg-3 inner">
 												<h4>Online</h4>
@@ -96,11 +86,11 @@ Vue.component("header-component", {
 															<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
 														</div>
 														<figcaption>
-															<!-- <p>RN Best Practices / Vein Global</p> -->
+															
 														
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 											  
 												<div class="col-sm-6 col-lg-3 inner">
 												<h4>Books</h4>
@@ -109,7 +99,7 @@ Vue.component("header-component", {
 															<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
 														</div>
 														<figcaption>
-															<!-- <p>Books</p> -->
+															
 															
 														</figcaption>
 													</figure>
@@ -117,8 +107,8 @@ Vue.component("header-component", {
 											  
 											  </div>
 										</li>
-									</ul><!-- /.yamm-dropdown-menu -->
-								</li><!-- /.yamm-fullwidth -->
+									</ul>
+								</li>
 
 								<li class="dropdown yamm-fullwidth">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
@@ -138,7 +128,7 @@ Vue.component("header-component", {
 													
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 											  
 												<div class="col-sm-6 col-lg-3 inner">
 												<h4>Innovative Media Solutions</h4>
@@ -151,7 +141,7 @@ Vue.component("header-component", {
 												
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 											  
 												<div class="col-sm-6 col-lg-3 inner">
 												<h4>Customer Engagement</h4>
@@ -164,7 +154,7 @@ Vue.component("header-component", {
 														
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 											  
 												<div class="col-sm-6 col-lg-3 inner">
 												<h4>Medical Publishing</h4>
@@ -181,8 +171,8 @@ Vue.component("header-component", {
 											  
 											  </div>
 										</li>
-									</ul><!-- /.yamm-dropdown-menu -->
-								</li><!-- /.yamm-fullwidth -->
+									</ul>
+								</li>
 
 								
 								<li class="dropdown yamm-fullwidth">
@@ -203,7 +193,7 @@ Vue.component("header-component", {
 													
 														</figcaption>
 													</figure>
-												</div><!-- /.col -->
+												</div>
 										  
 												<div class="col-sm-6 col-lg-3 inner">
 										  
@@ -214,68 +204,56 @@ Vue.component("header-component", {
 															<a href="#"><img src="assets/images/art/work02.jpg"
 																	alt=""></a>
 														</figure>
-													</div><!-- /.thumb -->
+													</div>
 										  
 													<div class="col-6 thumb">
 														<figure class="icon-overlay icn-link">
 															<a href="#"><img src="assets/images/art/work03.jpg"
 																	alt=""></a>
 														</figure>
-													</div><!-- /.thumb -->
+													</div>
 										  
 													<div class="col-6 thumb">
 														<figure class="icon-overlay icn-link">
 															<a href="#"><img src="assets/images/art/work04.jpg"
 																	alt=""></a>
 														</figure>
-													</div><!-- /.thumb -->
+													</div>
 										  
 													<div class="col-6 thumb">
 														<figure class="icon-overlay icn-link">
 															<a href="#"><img src="assets/images/art/work05.jpg"
 																	alt=""></a>
 														</figure>
-													</div><!-- /.thumb -->
+													</div>
 										  
 													<div class="col-6 thumb">
 														<figure class="icon-overlay icn-link">
 															<a href="#"><img src="assets/images/art/work06.jpg"
 																	alt=""></a>
 														</figure>
-													</div><!-- /.thumb -->
+													</div>
 										  
 													<div class="col-6 thumb">
 														<figure class="icon-overlay icn-link">
 															<a href="#"><img src="assets/images/art/work07.jpg"
 																	alt=""></a>
 														</figure>
-													</div><!-- /.thumb -->
+													</div>
 										  
-												</div><!-- /.row -->
-											</div><!-- /.col -->
+												</div>
+											</div>
 											  
 												
 											  
 											  </div>
 										</li>
-									</ul><!-- /.yamm-dropdown-menu -->
-								</li><!-- /.yamm-fullwidth -->
-
+									</ul>
+								</li>
+								
 								<li>
-									<a href="#">Contact Us</a>
-								</li><!-- /.dropdown -->
-								
-								<!-- ============================================================= MEGA MENU : END ============================================================= -->
-								
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
-									
-									<ul class="dropdown-menu">
-										<li><a href="contact.html">Contact I</a></li>
-										<li><a href="contact2.html">Contact II</a></li>
-										<li><a href="contact3.html">Contact III</a></li>
-									</ul><!-- /.dropdown-menu -->
-								</li><!-- /.dropdown -->
+								<a href="#">Contact</a>
+							</li>
 								
 								<li class="dropdown searchbox">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
@@ -285,17 +263,16 @@ Vue.component("header-component", {
 											<input type="search" class="form-control" placeholder="Type to search">
 											<button type="submit" class="btn btn-submit icon-right-open"></button>
 										</form>
-									</div><!-- /.dropdown-menu -->
-								</li><!-- /.searchbox -->
+									</div>
+								</li>
 								
-							</ul><!-- /.nav -->
+							</ul>
 							
-							<!-- ============================================================= MAIN NAVIGATION : END ============================================================= -->
-							
-						</div><!-- /.container -->
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.yamm -->
-			</div><!-- /.navbar -->
+						
+						</div>
+					</div>
+				</div>
+			</div>
 		</header>`
   });
   
