@@ -1,6 +1,8 @@
-Vue.component("header-component", {
-      template: 
-      `<header>
+Vue.component("header-component", {});
+
+new Vue({
+  el: ".headerVue",
+  template: `<header>
 			<div class="navbar">
 				
       <div class="navbar-header">
@@ -43,7 +45,7 @@ Vue.component("header-component", {
 							<ul class="nav navbar-nav">
 								
 								<li>
-									<a href="#">Home</a>
+									<a href="/index.html">Home</a>
 								</li>							
 								
 								<li class="dropdown yamm-fullwidth">
@@ -274,9 +276,4 @@ Vue.component("header-component", {
 				</div>
 			</div>
 		</header>`
-  });
-  
-  new Vue({
-    el: ".headerVue"
-  });
-
+});
