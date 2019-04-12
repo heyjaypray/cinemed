@@ -1,8 +1,8 @@
 Vue.component("header-component", {});
 
 new Vue({
-el: ".headerVue",
-template: `<header>
+  el: ".headerVue",
+  template: `<header>
 	<div class="navbar">
 
 		<div class="navbar-header">
@@ -66,13 +66,13 @@ template: `<header>
 												</figure>
 												<br />
 												<a href="/acs.html">
-													<h2>ACS Surgical Video Library</h2>
+													<h2 style="text-decoration: none;">ACS Surgical Video Library</h2>
 												</a>
 												<a href="/vein.html">
-													<h2>Vein Global Online</h2>
+													<h2 style="text-decoration: none;">Vein Global Online</h2>
 												</a>
 												<a href="/sages.html">
-													<h2>SAGES Online</h2>
+													<h2 style="text-decoration: none;">SAGES Online</h2>
 												</a>
 
 											</center>
@@ -84,13 +84,13 @@ template: `<header>
 												<figure>
 													<br />
 													<a href="/aorn.html">
-														<h2>AORN</h2>
+														<h2 style="text-decoration: none;">AORN</h2>
 													</a>
 													<a href="/assistant.html">
-														<h2>First Assistant Products</h2>
+														<h2 style="text-decoration: none;">First Assistant Products</h2>
 													</a>
 													<a href="/rnbest.html">
-														<h2>RN Best Practices</h2>
+														<h2 style="text-decoration: none;">RN Best Practices</h2>
 													</a>
 											</center>
 										</div>
@@ -104,7 +104,7 @@ template: `<header>
 												</figure>
 												<br />
 												<a href="/books.html">
-													<h2>Medical Books</h2>
+													<h2 style="text-decoration: none;">Medical Books</h2>
 												</a>
 											</center>
 										</div>
