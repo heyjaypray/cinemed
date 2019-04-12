@@ -131,19 +131,6 @@
 
 
 
-
-		<!-- For demo purposes – can be removed on production -->
-		<!-- <link href="assets/css/green.css" rel="alternate stylesheet" title="Green color"> -->
-		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
-		<!-- <link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
-	<link href="assets/css/pink.css" rel="alternate stylesheet" title="Pink color">
-	<link href="assets/css/purple.css" rel="alternate stylesheet" title="Purple color">
-	<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
-	<link href="assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
-	<link href="assets/css/gray.css" rel="alternate stylesheet" title="Gray color"> -->
-
-		<script src="switchstylesheet/switchstylesheet.js"></script>
-
 		<script>
 			$(document).ready(function () {
 				$(".changecolor").switchstylesheet({
@@ -184,36 +171,23 @@
 				template: `<div>
 			<section id="hero">
 				<div id="owl-main" class="owl-carousel owl-one-item">
-					
 					<div class="item img-bg-center" style="background-image: url(assets/images/art/slider02.jpg);">
 						<div class="container">
 							<div class="caption vertical-center text-center">
-								
 								<h1 class="fadeInDown-1 light-color">UPCOMING EVENTS</h1>
-
-								
-							</div><!-- /.caption -->
-						</div><!-- /.container -->
-					</div><!-- /.item -->
-					
-				</div><!-- /.owl-carousel -->
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		<section id="pricing-tables">
 			<div class="container inner">
-				
-
-				
-				<div class="row pricing" >
-
-
+				<div class="row pricing" v-if="this.courses.length > 0">
 						<div class="col-lg-4 col-md-6 inner-top-sm" v-for="course in courses">					
 							<div class="card" style="width: 20rem;">
-								
 								<div v-if="course.Image">
 									<img class="card-img-top" v-bind:src="course.Image.url" alt="Card image cap" style="height:200px; width: 100%">
 								</div>
-
-								
 								<div class="card-body">
 									<center>
 										<h4 class="card-title">{{ course.Event }}</h4>
@@ -225,10 +199,16 @@
 								</div>
 							</div>
 						</div>
-
-						
 					</div>
-
+					<div v-else>
+						<div class="row">
+							<div class="col-lg-4"></div>
+							<div class="col-lg-4">
+								<h3>LOADING</h3>
+							</div>
+							<div class="col-lg-4"></div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -239,7 +219,7 @@
 				el: ".eventsVue"
 			});
 		</script>
-		<!-- For demo purposes – can be removed on production : End -->
+
 </body>
 
 </html>

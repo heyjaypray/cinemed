@@ -1,0 +1,52 @@
+<div>
+    <section id="hero">
+        <div id="owl-main" class="owl-carousel owl-one-item">
+            <div class="item img-bg-center" style="background-image: url(assets/images/art/slider02.jpg);">
+                <div class="container">
+                    <div class="caption vertical-center text-center">
+                        <h1 class="fadeInDown-1 light-color">UPCOMING EVENTS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing-tables">
+        <div class="container inner">
+            <div class="row pricing" v-if="this.courses.length > 0">
+                <div class="col-lg-4 col-md-6 inner-top-sm" v-for="course in courses">
+                    <div class="card" style="width: 20rem;">
+                        <div v-if="course.Image">
+                            <img class="card-img-top" v-bind:src="course.Image.url" alt="Card image cap"
+                                style="height:200px; width: 100%">
+                        </div>
+                        <div class="card-body">
+                            <center>
+                                <h4 class="card-title">{{ course.Event }}</h4>
+                                <p class="card-text">{{ course.Facility }}</p>
+                                <i class="icon-globe"></i> {{ course.City }} <br>
+                                <i class="icon-calendar"></i> {{ course.Date }} <br>
+                                <a v-bind:href="course.Website" target="_blank" class="btn btn-green">View Event
+                                    Site</a>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div v-else>
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <center>
+                            <h3>LOADING</h3>
+                        </center>
+                    </div>
+                    <div class="col-lg-4"></div>
+
+                </div>
+
+
+            </div>
+        </div>
+</div>
+</section>
+</div>
