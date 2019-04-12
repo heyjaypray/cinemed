@@ -65,15 +65,27 @@ new Vue({
 
 												</figure>
 												<br />
-												<a href="/acs.html">
-													<h4 style="text-decoration: none;">ACS Surgical Video Library</h4>
-												</a>
-												<a href="/vein.html">
-													<h4 style="text-decoration: none;">Vein Global Online</h4>
-												</a>
-												<a href="/sages.html">
-													<h4 style="text-decoration: none;">SAGES Online</h4>
-												</a>
+												<ul class="circled">
+													<li>
+														<a href="/acs.html">
+															<h4>ACS Surgical Video
+																Library</h4>
+														</a></li>
+
+													<li>
+														<a href="/vein.html">
+															<h4 style="text-decoration: none;">Vein Global Online</h4>
+														</a>
+													</li>
+
+													<li>
+														<a href="/sages.html">
+															<h4 style="text-decoration: none;">SAGES Online</h4>
+														</a>
+													</li>
+
+												</ul>
+
 
 											</center>
 										</div>
@@ -83,29 +95,50 @@ new Vue({
 												<h3>Nursing</h3>
 												<figure>
 													<br />
-													<a href="/aorn.html">
-														<h4 style="text-decoration: none;">AORN</h4>
-													</a>
-													<a href="/assistant.html">
-														<h4 style="text-decoration: none;">First Assistant Products</h4>
-													</a>
-													<a href="/rnbest.html">
-														<h4 style="text-decoration: none;">RN Best Practices</h4>
-													</a>
+													<ul>
+														<li>
+															<a href="/aorn.html">
+																<h4 style="text-decoration: none;">AORN</h4>
+															</a>
+														</li>
+
+														<li>
+															<a href="/assistant.html">
+																<h4 style="text-decoration: none;">First Assistant
+																	Products</h4>
+															</a>
+														</li>
+
+														<li>
+															<a href="/rnbest.html">
+																<h4 style="text-decoration: none;">RN Best Practices
+																</h4>
+															</a>
+														</li>
+													</ul>
+
+
+
 											</center>
 										</div>
 
 										<div class="col-sm-6 col-lg-4 inner">
 											<center>
-												<h>Books</h>
+												<h3>Books</h3>
 												<figure>
 
 
 												</figure>
 												<br />
-												<a href="/books.html">
-													<h4 style="text-decoration: none;">Medical Books</h4>
-												</a>
+												<ul>
+													<li>
+														<a href="/books.html">
+															<h4 style="text-decoration: none;">Medical Books</h4>
+														</a>
+													</li>
+												</ul>
+
+
 											</center>
 										</div>
 
