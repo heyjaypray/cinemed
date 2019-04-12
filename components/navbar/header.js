@@ -61,32 +61,21 @@ new Vue({
 											<center>
 												<h3>Surgery</h3>
 												<figure>
-
-
 												</figure>
 												<br />
-												
 														<a href="/acs.html">
 															<h4>ACS Surgical Video
 																Library</h4>
 														</a>
-
-													
 														<a href="/vein.html">
 															<h4 style="text-decoration: none;">Vein Global Online</h4>
 														</a>
-												
-
-													
 														<a href="/sages.html">
 															<h4 style="text-decoration: none;">SAGES Online</h4>
 														</a>
-											
-
-
 											</center>
-										</div>
-
+                    </div>
+                    
 										<div class="col-sm-6 col-lg-4 inner">
 											<center>
 												<h3>Nursing</h3>
@@ -114,8 +103,6 @@ new Vue({
 														</li>
 													</ul>
 
-
-
 											</center>
 										</div>
 
@@ -123,8 +110,6 @@ new Vue({
 											<center>
 												<h3>Books</h3>
 												<figure>
-
-
 												</figure>
 												<br />
 												<ul>
@@ -134,13 +119,8 @@ new Vue({
 														</a>
 													</li>
 												</ul>
-
-
 											</center>
 										</div>
-
-
-
 									</div>
 								</li>
 							</ul>
