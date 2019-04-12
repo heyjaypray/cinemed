@@ -65,26 +65,23 @@ new Vue({
 
 												</figure>
 												<br />
-												<ul class="circled">
-													<li>
+												
 														<a href="/acs.html">
 															<h4>ACS Surgical Video
 																Library</h4>
-														</a></li>
+														</a>
 
-													<li>
+													
 														<a href="/vein.html">
 															<h4 style="text-decoration: none;">Vein Global Online</h4>
 														</a>
-													</li>
+												
 
-													<li>
+													
 														<a href="/sages.html">
 															<h4 style="text-decoration: none;">SAGES Online</h4>
 														</a>
-													</li>
-
-												</ul>
+											
 
 
 											</center>
