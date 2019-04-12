@@ -1,6 +1,6 @@
 const surgery = new Vue({
-	el: "#surgery",
-	template: `
+  el: "#surgery",
+  template: `
 <div>
 
 	<section id="visit-our-store" class="img-bg img-bg-soft tint-bg"

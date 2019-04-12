@@ -1,8 +1,8 @@
 Vue.component("header-component", {});
 
 new Vue({
-  el: ".headerVue",
-  template: `<header>
+el: ".headerVue",
+template: `<header>
 	<div class="navbar">
 
 		<div class="navbar-header">
@@ -24,8 +24,8 @@ new Vue({
 
 
 
-				<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo"
-						alt=""></a>
+				<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png"
+						class="logo" alt=""></a>
 
 
 				<a class="navbar-toggler btn responsive-menu float-right" data-toggle="collapse"
@@ -40,8 +40,8 @@ new Vue({
 
 
 
-					<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png" class="logo"
-							alt=""></a>
+					<a class="navbar-brand" href="index.html"><img src="assets/images/cinemed/cinemed-vector.png"
+							class="logo" alt=""></a>
 
 
 					<ul class="nav navbar-nav ">
@@ -57,57 +57,59 @@ new Vue({
 								<li>
 									<div class="yamm-content row">
 
-										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Surgery</h4>
-											<figure>
-												<div class="icon-overlay icn-link">
-													<a href="/surgery.html"><img src="assets/images/art/work01.jpg" alt=""></a>
-												</div>
-												<figcaption>
+										<div class="col-sm-6 col-lg-4 inner">
+											<center>
+												<h3>Surgery</h3>
+												<figure>
 
 
-												</figcaption>
-											</figure>
+												</figure>
+												<br />
+												<a href="/acs.html">
+													<h2>ACS Surgical Video Library</h2>
+												</a>
+												<a href="/vein.html">
+													<h2>Vein Global Online</h2>
+												</a>
+												<a href="/sages.html">
+													<h2>SAGES Online</h2>
+												</a>
+
+											</center>
 										</div>
 
-										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Nursing</h4>
-											<figure>
-												<div class="icon-overlay icn-link">
-													<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
-												</div>
-												<figcaption>
-
-
-												</figcaption>
-											</figure>
+										<div class="col-sm-6 col-lg-4 inner">
+											<center>
+												<h3>Nursing</h3>
+												<figure>
+													<br />
+													<a href="/aorn.html">
+														<h2>AORN</h2>
+													</a>
+													<a href="/assistant.html">
+														<h2>First Assistant Products</h2>
+													</a>
+													<a href="/rnbest.html">
+														<h2>RN Best Practices</h2>
+													</a>
+											</center>
 										</div>
 
-										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Online</h4>
-											<figure>
-												<div class="icon-overlay icn-link">
-													<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
-												</div>
-												<figcaption>
+										<div class="col-sm-6 col-lg-4 inner">
+											<center>
+												<h3>Books</h3>
+												<figure>
 
 
-												</figcaption>
-											</figure>
+												</figure>
+												<br />
+												<a href="/books.html">
+													<h2>Medical Books</h2>
+												</a>
+											</center>
 										</div>
 
-										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Books</h4>
-											<figure>
-												<div class="icon-overlay icn-link">
-													<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
-												</div>
-												<figcaption>
 
-
-												</figcaption>
-											</figure>
-										</div>
 
 									</div>
 								</li>
@@ -125,7 +127,8 @@ new Vue({
 											<h4>Clinical Education and Training</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
-													<a href="/clinical.html"><img src="assets/images/art/work01.jpg" alt=""></a>
+													<a href="/clinical.html"><img src="assets/images/art/work01.jpg"
+															alt=""></a>
 												</div>
 												<figcaption>
 													<p></p>
@@ -138,7 +141,8 @@ new Vue({
 											<h4>Innovative Media Solutions</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
-													<a href="/media-solutions.html"><img src="assets/images/art/work01.jpg" alt=""></a>
+													<a href="/media-solutions.html"><img
+															src="assets/images/art/work01.jpg" alt=""></a>
 												</div>
 												<figcaption>
 													<p></p>
@@ -151,7 +155,8 @@ new Vue({
 											<h4>Customer Engagement</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
-													<a href="/customer.html"><img src="assets/images/art/work01.jpg" alt=""></a>
+													<a href="/customer.html"><img src="assets/images/art/work01.jpg"
+															alt=""></a>
 												</div>
 												<figcaption>
 													<p></p>
@@ -185,22 +190,12 @@ new Vue({
 
 						<li>
 							<a href="#">Contact</a>
-            </li>
-            
-            
+						</li>
 
-						<!-- <li class="dropdown searchbox">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-search"></i></a>
 
-							<div class="dropdown-menu dropdown-menu-right">
-								<form id="search" class="navbar-form search" role="search">
-									<input type="search" class="form-control" placeholder="Type to search">
-									<button type="submit" class="btn btn-submit icon-right-open"></button>
-								</form>
-							</div>
-            </li> -->
-            
-            <button type="button" class="btn btn-primary ml-5">Login</button>
+
+
+						<button type="button" class="btn btn-primary ml-5">Login</button>
 
 
 				</div>
