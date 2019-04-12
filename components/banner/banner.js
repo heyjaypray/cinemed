@@ -8,7 +8,7 @@ const banner = new Vue({
           <div class="container">
             <div class="caption vertical-center text-center">
               
-                          <h1 class="fadeInDown-1 light-color"><span>Products</span></h1>
+             <h1 class="fadeInDown-1 light-color"><span>Products</span></h1>
               <p class="fadeInDown-2 dark-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In non tellus id lectus blandit vestibulum sit amet in sapien. In hac habitasse platea dictumst. Nunc eget dolor felis.</p>
               <div class="fadeInDown-3">
                 <a href="#" class="btn btn-large">Get started now</a>
