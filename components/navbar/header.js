@@ -1,8 +1,8 @@
 Vue.component("header-component", {});
 
 new Vue({
-  el: ".headerVue",
-  template: `<header>
+el: ".headerVue",
+template: `<header>
 	<div class="navbar">
 
 		<div class="navbar-header">
@@ -63,19 +63,19 @@ new Vue({
 												<figure>
 												</figure>
 												<br />
-														<a href="/acs.html">
-															<h4>ACS Surgical Video
-																Library</h4>
-														</a>
-														<a href="/vein.html">
-															<h4 style="text-decoration: none;">Vein Global Online</h4>
-														</a>
-														<a href="/sages.html">
-															<h4 style="text-decoration: none;">SAGES Online</h4>
-														</a>
+												<a href="/acs.html">
+													<h4>ACS Surgical Video
+														Library</h4>
+												</a>
+												<a href="/vein.html">
+													<h4 style="text-decoration: none;">Vein Global Online</h4>
+												</a>
+												<a href="/products-list.html">
+													<h4 style="text-decoration: none;">SAGES Online</h4>
+												</a>
 											</center>
-                    </div>
-                    
+										</div>
+
 										<div class="col-sm-6 col-lg-4 inner">
 											<center>
 												<h3>Nursing</h3>
@@ -134,7 +134,7 @@ new Vue({
 									<div class="yamm-content row">
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Clinical Education and Training</h4>
+											<h4>Course Management</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
 													<a href="/clinical.html"><img src="assets/images/art/work01.jpg"
@@ -148,7 +148,7 @@ new Vue({
 										</div>
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Innovative Media Solutions</h4>
+											<h4>Accreditation</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
 													<a href="/media-solutions.html"><img
@@ -162,7 +162,7 @@ new Vue({
 										</div>
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Customer Engagement</h4>
+											<h4>Video Production</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
 													<a href="/customer.html"><img src="assets/images/art/work01.jpg"
@@ -176,7 +176,7 @@ new Vue({
 										</div>
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Medical Publishing</h4>
+											<h4>E-Learning</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
 													<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
