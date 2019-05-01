@@ -1,8 +1,8 @@
 Vue.component("header-component", {});
 
 new Vue({
-el: ".headerVue",
-template: `<header>
+  el: ".headerVue",
+  template: `<header>
 	<div class="navbar">
 
 		<div class="navbar-header">
@@ -51,7 +51,7 @@ template: `<header>
 						</li>
 
 						<li class="dropdown yamm-fullwidth">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products</a>
+							<a href="/products-list.html" class="dropdown-toggle" data-toggle="dropdown">Products</a>
 
 							<ul class="dropdown-menu yamm-dropdown-menu">
 								<li>
