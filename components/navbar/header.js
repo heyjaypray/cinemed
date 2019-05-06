@@ -59,19 +59,18 @@ new Vue({
 
 										<div class="col-sm-6 col-lg-4 inner">
 											<center>
-												<h3>Surgery</h3>
+												<h3>SURGERY</h3>
 												<figure>
 												</figure>
 												<br />
 												<a href="/acs.html">
-													<h4>ACS Surgical Video
-														Library</h4>
+													<h4>ACS ONLINE</h4>
 												</a>
 												<a href="/vein.html">
-													<h4 style="text-decoration: none;">Vein Global Online</h4>
+													<h4 style="text-decoration: none;">VEIN GLOBAL</h4>
 												</a>
 												<a href="/products-list.html">
-													<h4 style="text-decoration: none;">SAGES Online</h4>
+													<h4 style="text-decoration: none;">SAGES</h4>
 												</a>
 											</center>
 										</div>
@@ -84,21 +83,13 @@ new Vue({
 													<ul>
 														<li>
 															<a href="/aorn.html">
-																<h4 style="text-decoration: none;">AORN</h4>
+																<h4 style="text-decoration: none;">AORN ONLINE</h4>
 															</a>
 														</li>
 
 														<li>
 															<a href="/assistant.html">
-																<h4 style="text-decoration: none;">First Assistant
-																	Products</h4>
-															</a>
-														</li>
-
-														<li>
-															<a href="/rnbest.html">
-																<h4 style="text-decoration: none;">RN Best Practices
-																</h4>
+																<h4 style="text-decoration: none;">RN BEST PRACTICES</h4>
 															</a>
 														</li>
 													</ul>
@@ -134,10 +125,10 @@ new Vue({
 									<div class="yamm-content row">
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Course Management</h4>
+											<h4>ONLINE TRAINING</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
-													<a href="/clinical.html"><img src="assets/images/art/work01.jpg"
+													<a href="/online-training.html"><img src="assets/images/art/work01.jpg"
 															alt=""></a>
 												</div>
 												<figcaption>
@@ -148,10 +139,10 @@ new Vue({
 										</div>
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Accreditation</h4>
+											<h4>COURSE MANAGEMENT</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
-													<a href="/media-solutions.html"><img
+													<a href="/course-management.html"><img
 															src="assets/images/art/work01.jpg" alt=""></a>
 												</div>
 												<figcaption>
@@ -162,7 +153,7 @@ new Vue({
 										</div>
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>Video Production</h4>
+											<h4>Customer Engagement</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
 													<a href="/customer.html"><img src="assets/images/art/work01.jpg"
@@ -176,7 +167,7 @@ new Vue({
 										</div>
 
 										<div class="col-sm-6 col-lg-3 inner">
-											<h4>E-Learning</h4>
+											<h4>CME</h4>
 											<figure>
 												<div class="icon-overlay icn-link">
 													<a href="#"><img src="assets/images/art/work01.jpg" alt=""></a>
