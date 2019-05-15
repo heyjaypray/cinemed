@@ -1,12 +1,16 @@
 const aboutUs = new Vue({
   el: ".aboutUs",
   template: `
+<div>
+ <section>
+   <h1 class="text-center" style="font-size: 70px;">DELIVERING CONTEMPORARY PATHWAYS TO MEDICAL EDUCATION</h1>
+ </section> 
 <section id="circle-tabs">
   <div class="container inner">
     <div class="row">
       <div class="col-lg-8 col-md-9 mx-auto text-center">
         <header>
-          <h1 style="font-size: 70px;">DELIVERING CONTEMPORARY PATHWAYS TO MEDICAL EDUCATION</h1>
+          
           <p style="color: #249aed;">
             Cine-Med is a Global Multi-Channel Producer of Medical Education with a mission of improving patient outcome
             by delivering quality, CME accredited content and events for the healthcare community.
@@ -127,5 +131,6 @@ const aboutUs = new Vue({
     </div>
   </div>
 </section>
+</div>
 `
 });
