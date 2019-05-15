@@ -7,7 +7,7 @@ template: `
       <div class="row">
         <div class="col-lg-8 col-md-9 mx-auto text-center">
           <header>
-            <h1 class="text-center" style="font-size: 50px; margin-bottom: 10%; margin-top:10%">DELIVERING CONTEMPORARY
+            <h1 class="text-center" style="font-size: 70px; margin-bottom: 10%; margin-top:10%">DELIVERING CONTEMPORARY
               PATHWAYS
               TO MEDICAL
               EDUCATION</h1>
