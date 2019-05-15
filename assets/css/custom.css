@@ -34,7 +34,7 @@ h3 {
   font-size: 60px;
   /* text-decoration-line: underline; */
   text-decoration-style: solid;
-  text-shadow: 4px 4px rgb(231, 224, 224);
+  /* text-shadow: 4px 4px rgb(231, 224, 224); */
   /* text-decoration-color: #ed174c; */
 }
 
@@ -45,5 +45,5 @@ h2 {
   /* text-decoration-line: underline; */
   text-decoration-style: solid;
   /* text-decoration-color: #ed174c; */
-  text-shadow: 4px 4px rgb(231, 224, 224);
+  /* text-shadow: 4px 4px rgb(231, 224, 224); */
 }
