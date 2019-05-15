@@ -1,13 +1,13 @@
 const aboutUs = new Vue({
-el: ".aboutUs",
-template: `
+  el: ".aboutUs",
+  template: `
 <section id="circle-tabs">
   <div class="container inner">
     <div class="row">
       <div class="col-lg-8 col-md-9 mx-auto text-center">
         <header>
-          <h1>Delivering Contemporary Pathways to Medical Education</h1>
-          <p>
+          <h1 style="font-size: 70px;">DELIVERING CONTEMPORARY PATHWAYS TO MEDICAL EDUCATION</h1>
+          <p style="color: #249aed;">
             Cine-Med is a Global Multi-Channel Producer of Medical Education with a mission of improving patient outcome
             by delivering quality, CME accredited content and events for the healthcare community.
           </p>
@@ -37,12 +37,12 @@ template: `
                 Customer Engagement
               </a>
             </li>
-            <!-- <li class="tab">
+            <li class="tab">
               <a href="#tab-4">
                 <div><i class="icon-beaker"></i></div>
                 CME
               </a>
-            </li> -->
+            </li>
           </ul>
 
           <div class="panel-container">
@@ -55,7 +55,7 @@ template: `
                 </div>
 
                 <div class="col-lg-5 col-md-6 inner-top-xs inner-left-xs">
-                  <h3> Clinical Education and Training </h3>
+                  <h3 style="font-size: 50px; "> ONLINE TRAINING </h3>
                   <p>
                     Magnis modipsae que lib voloratati andigen daepedor
                     quiate ut reporemni aut labor. Laceaque quiae sitiorem
@@ -76,7 +76,7 @@ template: `
                 </div>
 
                 <div class="col-lg-5 col-md-6 order-md-1 offset-lg-1 inner-top-xs inner-right-xs">
-                  <h3>Innovative Media Solutions</h3>
+                  <h3>COURSE MANAGEMENT</h3>
                   <p>
                     Magnis modipsae que lib voloratati andigen daepedor
                     quiate ut reporemni aut labor. Laceaque quiae sitiorem
@@ -97,7 +97,7 @@ template: `
                 </div>
 
                 <div class="col-lg-3 col-md-6 order-lg-1 offset-lg-1 float-md-left float-lg-none inner-top-xs">
-                  <h3>Course Management</h3>
+                  <h3 style="font-size: 40px;">CUSTOMER ENGAGEMENT</h3>
                   <p>
                     Magnis modipsae lib voloratati andigen daepedor quiate
                     aut labor. Laceaque quiae sitiorem resti est lore

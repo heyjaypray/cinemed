@@ -6,49 +6,49 @@ a:focus,
 .meta a:hover,
 .meta li.categories:hover:before,
 .more:hover,
-.navbar.basic .nav > li > a:hover,
-.navbar.basic .nav > li > a:focus,
-.navbar.basic .nav .open > a,
-.navbar.basic .nav .open > a:hover,
-.navbar.basic .nav .open > a:focus,
+.navbar.basic .nav>li>a:hover,
+.navbar.basic .nav>li>a:focus,
+.navbar.basic .nav .open>a,
+.navbar.basic .nav .open>a:hover,
+.navbar.basic .nav .open>a:focus,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a:hover,
 .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a.active,
 .navbar-header .info a:hover,
-.nav > li > a:hover,
+.nav>li>a:hover,
 .owl-carousel:hover .owl-next:hover,
 .owl-carousel:hover .owl-prev:hover,
-.panel-title > a:hover,
+.panel-title>a:hover,
 #scrollUp:hover,
 .sidemeta .format-wrapper a,
 .tabs-side .tab.active a,
 .tabs-top .tab.active a,
-.text-center .panel-title > a:hover span:after,
+.text-center .panel-title>a:hover span:after,
 ul.arrowed li:before,
 ul.circled li:before,
 .yamm .yamm-content a:hover {
-	color: #3F8DBF;
+	color: #249aed;
 }
 
 .tint-bg .btn,
 .tint-color {
-	color: #3F8DBF !important;
+	color: #249aed !important;
 }
 
 .btn,
 .classic-blog .post .date,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:focus,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > .active > a:hover,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:focus,
-.navbar .dropdown-menu:not(.yamm-dropdown-menu) > li > a:hover,
-.navbar .dropdown-submenu:focus > a,
-.navbar .dropdown-submenu:hover > a,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu)>.active>a,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu)>.active>a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu)>.active>a:hover,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu)>li>a:focus,
+.navbar .dropdown-menu:not(.yamm-dropdown-menu)>li>a:hover,
+.navbar .dropdown-submenu:focus>a,
+.navbar .dropdown-submenu:hover>a,
 .owl-pagination .owl-page.active span,
 .owl-pagination .owl-page:hover span,
 #owl-main .caption h1 span.tint-bg,
 #owl-main .caption p span.tint-bg,
-.pagination > li > a,
-.pagination > li > span,
+.pagination>li>a,
+.pagination>li>span,
 .post.format-quote,
 .sidemeta .format-wrapper a:hover,
 .sidenav li a:hover,
@@ -59,20 +59,20 @@ ul.circled li:before,
 .tint-bg.img-bg-soft:before,
 .tint-bg.img-bg-softer:before,
 .tooltip-inner {
-	background-color: #3F8DBF;
+	background-color: #249aed;
 }
 
 .btn:hover,
 .btn:focus,
 .btn:active,
 .btn.active,
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > li > a:hover,
-.pagination > li > a:focus {
-	background-color: #387EAA;
+.pagination>.active>a,
+.pagination>.active>span,
+.pagination>.active>a:hover,
+.pagination>.active>span:hover,
+.pagination>li>a:hover,
+.pagination>li>a:focus {
+	background-color: #249aed;
 }
 
 .icon-overlay a .icn-more,
@@ -89,35 +89,40 @@ ul.circled li:before,
 .tabs-circle-top .tab a:hover,
 .tabs-side .tab a:hover,
 .tabs-top .tab a:hover {
-	border-color: #3F8DBF;
+	border-color: #249aed;
 }
 
 .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
 .bs-tooltip-bottom .arrow::before {
-	border-bottom-color: #3F8DBF;
+	border-bottom-color: #249aed;
 }
+
 .bs-tooltip-auto[x-placement^=top] .arrow::before,
 .bs-tooltip-top .arrow::before {
-	border-top-color: #3F8DBF;
+	border-top-color: #249aed;
 }
+
 .bs-tooltip-auto[x-placement^=left] .arrow::before,
 .bs-tooltip-left .arrow::before {
-	border-left-color: #3F8DBF;
+	border-left-color: #249aed;
 }
+
 .bs-tooltip-auto[x-placement^=right] .arrow::before,
 .bs-tooltip-right .arrow::before {
-	border-right-color: #3F8DBF;
+	border-right-color: #249aed;
 }
 
 #owl-main .caption h1 span.tint-bg,
-#owl-main .caption p span.tint-bg  {
-	box-shadow: -.500em 0 0 #3F8DBF, .500em 0 0 #3F8DBF;
+#owl-main .caption p span.tint-bg {
+	box-shadow: -.500em 0 0 #249aed, .500em 0 0 #249aed;
 }
 
 ::selection {
-	background: #B6DBF2; /* Safari */
+	background: #B6DBF2;
+	/* Safari */
 }
 
 ::-moz-selection {
-	background: #B6DBF2; /* Firefox */
+	background: #B6DBF2;
+	/* Firefox */
 }

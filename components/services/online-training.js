@@ -1,6 +1,6 @@
 const onlineTraining = new Vue({
-el: ".onlineTraining",
-template: `
+  el: ".onlineTraining",
+  template: `
 <div>
 	<section id="visit-our-store" class="img-bg img-bg-soft tint-bg"
 		style="background-image: url(assets/images/art/image-background04.jpg);">
@@ -10,6 +10,7 @@ template: `
 				<div class="col-lg-8 col-md-9">
 					<header>
 						<h2>Online Training</h2>
+						<h4>Deliver on-demand clinical education anywhere, anytime.</h4>
 					</header>
 
 				</div><!-- /.col -->
@@ -46,7 +47,7 @@ template: `
 
 				<div class="col-md-6 inner-top-xs inner-left-xs">
 					<!-- <h2>Fully flexible user interface</h2> -->
-					<h4>Deliver on-demand clinical education anywhere, anytime.</h4>
+					
 					<p>We work with you to produce the content, build the platform, and deliver your online training to
 						your targeted
 						users. Our custom-designed online training products act as a bridge to deliver cohesive and
@@ -101,4 +102,4 @@ template: `
 
 
 	`
-	});
+});
