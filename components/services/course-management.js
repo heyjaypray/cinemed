@@ -1,6 +1,6 @@
 const mediaSolutions = new Vue({
-el: ".mediaSolutions",
-template: `
+  el: ".mediaSolutions",
+  template: `
 <div>
 
 	<section id="visit-our-store" class="img-bg img-bg-soft tint-bg"

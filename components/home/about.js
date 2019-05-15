@@ -12,7 +12,7 @@ template: `
               TO MEDICAL
               EDUCATION</h1>
 
-            <p style="color: #249aed; font-size:30px;text-shadow: 3px 3px rgb(231, 224, 224);">
+            <p style="color: #249aed; font-size:30px;">
               Cine-Med is a Global Multi-Channel Producer of Medical Education with a mission of improving patient
               outcome
               by delivering quality, CME accredited content and events for the healthcare community.
