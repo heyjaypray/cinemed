@@ -1,12 +1,12 @@
 const banner = new Vue({
-el: "#banner",
-template: `
+  el: "#banner",
+  template: `
 
 
 <section id="hero">
   <div id="owl-main" class=" height-lg  ">
 
-    <div class="item" style="background-image: url(assets/images/cinemed/banner.jpg);">
+    <div class="item" style="background-image: url(assets/images/cinemed/banner2.jpg);">
       <div class="container">
         <div class="caption vertical-center text-left">
 
