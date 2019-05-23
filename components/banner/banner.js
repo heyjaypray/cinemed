@@ -10,7 +10,7 @@ const banner = new Vue({
       <div class="container">
         <div class="caption vertical-center text-left">
 
-          <h1 class="fadeInRight-1 light-color"><span>CineMed</span></h1>
+          <h1 class="fadeInRight-1 light-color"><span>Patient Outcomes Improved</span></h1>
 
           <div class="fadeInRight-3">
             <a href="#"><img src="assets/icons/noun-play2.png" style="width:200px; height:200px;"></a>

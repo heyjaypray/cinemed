@@ -1,6 +1,6 @@
 const surgery = new Vue({
-el: "#aorn",
-template: `
+  el: "#aorn",
+  template: `
 <div>
 
 	<section id="visit-our-store" class="img-bg img-bg-soft tint-bg"
@@ -25,7 +25,7 @@ template: `
 			<div class="row" style="margin-bottom: 5%">
 				<div class="col-lg-8 col-md-9 col-sm-10 mx-auto text-center">
 					<header>
-						<h1>Key Features</h1>
+						<h1 style="font-size: 72px; text-shadow: 2px 3px #D3D3D3;">AORN</h1>
 
 					</header>
 				</div>
@@ -46,15 +46,15 @@ template: `
 							<img src="assets/icons/check.png">
 						</div>
 						<div class="col">
-							<h4>Make Your Education Resources Go Further!</h4>
-							<ul>
-								<li><i class="icon-right-open"></i>Encourage your team to watch and learn at thier own
+							<h2>Make Your Education Resources Go Further!</h2>
+							<ul class="circled">
+								<li>Encourage your team to watch and learn at thier own
 									pace</li>
-								<li><i class="icon-right-open"></i>The most efficient and cost-effective way to access
+								<li>The most efficient and cost-effective way to access
 									the AORN Perioperative Nursing Video Library</li>
-								<li><i class="icon-right-open"></i>Annual subscription to access the complete video
+								<li>Annual subscription to access the complete video
 									library</li>
-								<li><i class="icon-right-open"></i>Refreshed regularly with new topics and updates to
+								<li>Refreshed regularly with new topics and updates to
 									existing titled</li>
 							</ul>
 						</div>
@@ -64,13 +64,13 @@ template: `
 							<img src="assets/icons/check.png">
 						</div>
 						<div class="col">
-							<h4>User-Friendly Interface</h4>
-							<ul>
-								<li><i class="icon-right-open"></i>Each video comes with study guides and posttests</li>
-								<li><i class="icon-right-open"></i>Score tracking and posttest completion certificates
+							<h2>User-Friendly Interface</h2>
+							<ul class="circled">
+								<li>Each video comes with study guides and posttests</li>
+								<li>Score tracking and posttest completion certificates
 								</li>
-								<li><i class="icon-right-open"></i>Assign videos at user level</li>
-								<li><i class="icon-right-open"></i>Categories include
+								<li>Assign videos at user level</li>
+								<li>Categories include
 
 									Aseptic Practices,
 									Equipment and Product Safety,
@@ -134,7 +134,7 @@ template: `
 			<div class="row">
 				<div class="col-lg-8 col-md-9 mx-auto text-center">
 					<header>
-						<h1>What Drives Us</h1>
+						<h3>What Drives Us</h3>
 						<p>Cine-Med and AORN partner to deliver a convient online program that allows perioperative
 							educators to establish and deliver a standardized evidence-based education program for
 							novice perioperative nurses</p>

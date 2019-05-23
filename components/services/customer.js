@@ -56,7 +56,51 @@ const customer = new Vue({
 				</div><!-- /.col -->
 
 				<div class="col-lg-4 inner-left-xs">
-					<figure><img src="assets/images/art/service01.jpg" alt=""></figure>
+					<div id="owl-work" class="owl-carousel owl-inner-nav owl-ui-md">
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work02-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work01-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work15-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work06-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work08-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work09-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+								<div class="item">
+									<figure>
+										<img src="assets/images/art/work16-lg.jpg" alt="">
+									</figure>
+								</div><!-- /.item -->
+								
+							</div><!-- /.owl-carousel -->
 				</div><!-- /.col -->
 
 			</div><!-- /.row -->
